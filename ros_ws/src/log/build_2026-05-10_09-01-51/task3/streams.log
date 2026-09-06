@@ -1,0 +1,25 @@
+[1.000s] Invoking command in '/root/ros_ws/src/build/task3': AMENT_PREFIX_PATH=/root/ros_ws/src/install/custom_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/root/ros_ws/src/install/custom_msgs:${CMAKE_PREFIX_PATH} LD_LIBRARY_PATH=/root/ros_ws/src/install/custom_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/root/ros_ws/src/build/task3/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/root/ros_ws/src/install/task3/lib/python3.10/site-packages:/root/ros_ws/src/install/custom_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /root/ros_ws/src/build/task3/build --no-deps symlink_data
+[1.188s] running develop
+[1.293s] running egg_info
+[1.293s] creating task3.egg-info
+[1.293s] writing task3.egg-info/PKG-INFO
+[1.294s] writing dependency_links to task3.egg-info/dependency_links.txt
+[1.294s] writing entry points to task3.egg-info/entry_points.txt
+[1.294s] writing requirements to task3.egg-info/requires.txt
+[1.294s] writing top-level names to task3.egg-info/top_level.txt
+[1.294s] writing manifest file 'task3.egg-info/SOURCES.txt'
+[1.295s] reading manifest file 'task3.egg-info/SOURCES.txt'
+[1.295s] writing manifest file 'task3.egg-info/SOURCES.txt'
+[1.296s] running build_ext
+[1.297s] Creating /root/ros_ws/src/install/task3/lib/python3.10/site-packages/task3.egg-link (link to .)
+[1.297s] Installing client script to /root/ros_ws/src/install/task3/lib/task3
+[1.297s] Installing service script to /root/ros_ws/src/install/task3/lib/task3
+[1.297s] 
+[1.298s] Installed /root/ros_ws/src/build/task3
+[1.298s] running symlink_data
+[1.298s] creating /root/ros_ws/src/install/task3/share/ament_index
+[1.298s] creating /root/ros_ws/src/install/task3/share/ament_index/resource_index
+[1.298s] creating /root/ros_ws/src/install/task3/share/ament_index/resource_index/packages
+[1.298s] symbolically linking /root/ros_ws/src/build/task3/resource/task3 -> /root/ros_ws/src/install/task3/share/ament_index/resource_index/packages
+[1.298s] symbolically linking /root/ros_ws/src/build/task3/package.xml -> /root/ros_ws/src/install/task3/share/task3
+[1.336s] Invoked command in '/root/ros_ws/src/build/task3' returned '0': AMENT_PREFIX_PATH=/root/ros_ws/src/install/custom_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/root/ros_ws/src/install/custom_msgs:${CMAKE_PREFIX_PATH} LD_LIBRARY_PATH=/root/ros_ws/src/install/custom_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/root/ros_ws/src/build/task3/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/root/ros_ws/src/install/task3/lib/python3.10/site-packages:/root/ros_ws/src/install/custom_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /root/ros_ws/src/build/task3/build --no-deps symlink_data

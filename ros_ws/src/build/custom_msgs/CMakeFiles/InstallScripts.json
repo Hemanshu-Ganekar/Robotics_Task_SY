@@ -1,0 +1,9 @@
+{
+	"InstallScripts" : 
+	[
+		"/root/ros_ws/src/build/custom_msgs/cmake_install.cmake",
+		"/root/ros_ws/src/build/custom_msgs/custom_msgs__py/cmake_install.cmake",
+		"/root/ros_ws/src/build/custom_msgs/custom_msgs__rs/cmake_install.cmake"
+	],
+	"Parallel" : false
+}

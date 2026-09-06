@@ -1,0 +1,23 @@
+running develop
+running egg_info
+creating action_demo_pkg.egg-info
+writing action_demo_pkg.egg-info/PKG-INFO
+writing dependency_links to action_demo_pkg.egg-info/dependency_links.txt
+writing entry points to action_demo_pkg.egg-info/entry_points.txt
+writing requirements to action_demo_pkg.egg-info/requires.txt
+writing top-level names to action_demo_pkg.egg-info/top_level.txt
+writing manifest file 'action_demo_pkg.egg-info/SOURCES.txt'
+reading manifest file 'action_demo_pkg.egg-info/SOURCES.txt'
+writing manifest file 'action_demo_pkg.egg-info/SOURCES.txt'
+running build_ext
+Creating /root/ros_ws/src/install/action_demo_pkg/lib/python3.10/site-packages/action-demo-pkg.egg-link (link to .)
+Installing client script to /root/ros_ws/src/install/action_demo_pkg/lib/action_demo_pkg
+Installing server script to /root/ros_ws/src/install/action_demo_pkg/lib/action_demo_pkg
+
+Installed /root/ros_ws/src/build/action_demo_pkg
+running symlink_data
+creating /root/ros_ws/src/install/action_demo_pkg/share/ament_index
+creating /root/ros_ws/src/install/action_demo_pkg/share/ament_index/resource_index
+creating /root/ros_ws/src/install/action_demo_pkg/share/ament_index/resource_index/packages
+symbolically linking /root/ros_ws/src/build/action_demo_pkg/resource/action_demo_pkg -> /root/ros_ws/src/install/action_demo_pkg/share/ament_index/resource_index/packages
+symbolically linking /root/ros_ws/src/build/action_demo_pkg/package.xml -> /root/ros_ws/src/install/action_demo_pkg/share/action_demo_pkg

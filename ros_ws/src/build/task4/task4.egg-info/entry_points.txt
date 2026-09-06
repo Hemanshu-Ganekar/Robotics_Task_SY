@@ -1,0 +1,4 @@
+[console_scripts]
+client = task4.client:main
+server = task4.server:main
+

@@ -1,0 +1,533 @@
+[0.000000] (-) TimerEvent: {}
+[0.000614] (custom_msgs) JobQueued: {'identifier': 'custom_msgs', 'dependencies': OrderedDict()}
+[0.000644] (my_robot_controller) JobQueued: {'identifier': 'my_robot_controller', 'dependencies': OrderedDict()}
+[0.000658] (py_srvcli) JobQueued: {'identifier': 'py_srvcli', 'dependencies': OrderedDict()}
+[0.000681] (sensorPkg) JobQueued: {'identifier': 'sensorPkg', 'dependencies': OrderedDict([('custom_msgs', '/root/ros_ws/install/custom_msgs')])}
+[0.000696] (task2) JobQueued: {'identifier': 'task2', 'dependencies': OrderedDict([('custom_msgs', '/root/ros_ws/install/custom_msgs')])}
+[0.000707] (task3) JobQueued: {'identifier': 'task3', 'dependencies': OrderedDict([('custom_msgs', '/root/ros_ws/install/custom_msgs')])}
+[0.000717] (task4) JobQueued: {'identifier': 'task4', 'dependencies': OrderedDict([('custom_msgs', '/root/ros_ws/install/custom_msgs')])}
+[0.000727] (custom_msgs) JobStarted: {'identifier': 'custom_msgs'}
+[0.006809] (my_robot_controller) JobStarted: {'identifier': 'my_robot_controller'}
+[0.010817] (py_srvcli) JobStarted: {'identifier': 'py_srvcli'}
+[0.015158] (custom_msgs) JobProgress: {'identifier': 'custom_msgs', 'progress': 'cmake'}
+[0.015552] (custom_msgs) JobProgress: {'identifier': 'custom_msgs', 'progress': 'build'}
+[0.016041] (custom_msgs) Command: {'cmd': ['/usr/bin/cmake', '--build', '/root/ros_ws/build/custom_msgs', '--', '-j16', '-l16'], 'cwd': '/root/ros_ws/build/custom_msgs', 'env': OrderedDict([('HOSTNAME', '686253f7c9d4'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/root/ros_ws/install/custom_msgs/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/root'), ('ROS_PYTHON_VERSION', '3'), ('COLCON_PREFIX_PATH', '/root/ros_ws/install'), ('ROS_DISTRO', 'humble'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('TERM', 'xterm-256color'), ('ROS_LOCALHOST_ONLY', '0'), ('QT_X11_NO_MITSHM', '1'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'), ('DISPLAY', ':0'), ('LANG', 'C.UTF-8'), ('AMENT_PREFIX_PATH', '/root/ros_ws/install/task3:/root/ros_ws/install/task2:/root/ros_ws/install/sensorPkg:/root/ros_ws/install/my_robot_controller:/root/ros_ws/install/custom_msgs:/opt/ros/humble'), ('PWD', '/root/ros_ws/build/custom_msgs'), ('LC_ALL', 'C.UTF-8'), ('PYTHONPATH', '/root/ros_ws/build/task3:/root/ros_ws/install/task3/lib/python3.10/site-packages:/root/ros_ws/build/task2:/root/ros_ws/install/task2/lib/python3.10/site-packages:/root/ros_ws/build/sensorPkg:/root/ros_ws/install/sensorPkg/lib/python3.10/site-packages:/root/ros_ws/build/my_robot_controller:/root/ros_ws/install/my_robot_controller/lib/python3.10/site-packages:/root/ros_ws/install/custom_msgs/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/root/ros_ws/install/custom_msgs:/root/ros_ws/install/task3:/root/ros_ws/install/task2:/root/ros_ws/install/sensorPkg:/root/ros_ws/install/my_robot_controller:/opt/ros/humble')]), 'shell': False}
+[0.099820] (-) TimerEvent: {}
+[0.205028] (-) TimerEvent: {}
+[0.209056] (custom_msgs) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.14 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[0.209496] (custom_msgs) StdoutLine: {'line': b'-- Override CMake install command with custom implementation using symlinks instead of copying resources\n'}
+[0.209568] (custom_msgs) StdoutLine: {'line': b'-- Found rosidl_default_generators: 1.2.1 (/opt/ros/humble/share/rosidl_default_generators/cmake)\n'}
+[0.209629] (custom_msgs) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[0.209686] (custom_msgs) StdoutLine: {'line': b'-- Found rosidl_adapter: 3.1.8 (/opt/ros/humble/share/rosidl_adapter/cmake)\n'}
+[0.209745] (custom_msgs) StderrLine: {'line': b'\x1b[0mCMake Deprecation Warning at CMakeLists.txt:1 (cmake_minimum_required):\n'}
+[0.209815] (custom_msgs) StderrLine: {'line': b'  Compatibility with CMake < 3.10 will be removed from a future version of\n'}
+[0.210018] (custom_msgs) StderrLine: {'line': b'  CMake.\n'}
+[0.210168] (custom_msgs) StderrLine: {'line': b'\n'}
+[0.210257] (custom_msgs) StderrLine: {'line': b'  Update the VERSION argument <min> value.  Or, use the <min>...<max> syntax\n'}
+[0.210332] (custom_msgs) StderrLine: {'line': b'  to tell CMake that the project requires at least <min> but has been updated\n'}
+[0.210401] (custom_msgs) StderrLine: {'line': b'  to work with policies introduced by <max> or earlier.\n'}
+[0.210467] (custom_msgs) StderrLine: {'line': b'\n'}
+[0.210536] (custom_msgs) StderrLine: {'line': b'\x1b[0m\n'}
+[0.226390] (custom_msgs) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[0.248976] (custom_msgs) StdoutLine: {'line': b'-- Found geometry_msgs: 4.9.1 (/opt/ros/humble/share/geometry_msgs/cmake)\n'}
+[0.285628] (custom_msgs) StdoutLine: {'line': b'-- Found action_msgs: 1.2.2 (/opt/ros/humble/share/action_msgs/cmake)\n'}
+[0.305113] (-) TimerEvent: {}
+[0.405315] (-) TimerEvent: {}
+[0.505543] (-) TimerEvent: {}
+[0.605789] (-) TimerEvent: {}
+[0.642958] (my_robot_controller) Command: {'cmd': ['/usr/bin/python3', '-W', 'ignore:setup.py install is deprecated', '-W', 'ignore:easy_install command is deprecated', 'setup.py', 'develop', '--editable', '--build-directory', '/root/ros_ws/build/my_robot_controller/build', '--no-deps', 'symlink_data'], 'cwd': '/root/ros_ws/build/my_robot_controller', 'env': {'HOSTNAME': '686253f7c9d4', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/root/ros_ws/install/custom_msgs/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib', 'HOME': '/root', 'ROS_PYTHON_VERSION': '3', 'COLCON_PREFIX_PATH': '/root/ros_ws/install', 'ROS_DISTRO': 'humble', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'TERM': 'xterm-256color', 'ROS_LOCALHOST_ONLY': '0', 'QT_X11_NO_MITSHM': '1', 'PATH': '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin', 'DISPLAY': ':0', 'LANG': 'C.UTF-8', 'AMENT_PREFIX_PATH': '/root/ros_ws/install/task3:/root/ros_ws/install/task2:/root/ros_ws/install/sensorPkg:/root/ros_ws/install/my_robot_controller:/root/ros_ws/install/custom_msgs:/opt/ros/humble', 'PWD': '/root/ros_ws/build/my_robot_controller', 'LC_ALL': 'C.UTF-8', 'PYTHONPATH': '/root/ros_ws/build/my_robot_controller/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/root/ros_ws/install/my_robot_controller/lib/python3.10/site-packages:/root/ros_ws/build/task3:/root/ros_ws/install/task3/lib/python3.10/site-packages:/root/ros_ws/build/task2:/root/ros_ws/install/task2/lib/python3.10/site-packages:/root/ros_ws/build/sensorPkg:/root/ros_ws/install/sensorPkg/lib/python3.10/site-packages:/root/ros_ws/build/my_robot_controller:/root/ros_ws/install/my_robot_controller/lib/python3.10/site-packages:/root/ros_ws/install/custom_msgs/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages', 'COLCON': '1', 'CMAKE_PREFIX_PATH': '/root/ros_ws/install/custom_msgs'}, 'shell': False}
+[0.648643] (py_srvcli) Command: {'cmd': ['/usr/bin/python3', '-W', 'ignore:setup.py install is deprecated', '-W', 'ignore:easy_install command is deprecated', 'setup.py', 'develop', '--editable', '--build-directory', '/root/ros_ws/build/py_srvcli/build', '--no-deps', 'symlink_data'], 'cwd': '/root/ros_ws/build/py_srvcli', 'env': {'HOSTNAME': '686253f7c9d4', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/root/ros_ws/install/custom_msgs/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib', 'HOME': '/root', 'ROS_PYTHON_VERSION': '3', 'COLCON_PREFIX_PATH': '/root/ros_ws/install', 'ROS_DISTRO': 'humble', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'TERM': 'xterm-256color', 'ROS_LOCALHOST_ONLY': '0', 'QT_X11_NO_MITSHM': '1', 'PATH': '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin', 'DISPLAY': ':0', 'LANG': 'C.UTF-8', 'AMENT_PREFIX_PATH': '/root/ros_ws/install/task3:/root/ros_ws/install/task2:/root/ros_ws/install/sensorPkg:/root/ros_ws/install/my_robot_controller:/root/ros_ws/install/custom_msgs:/opt/ros/humble', 'PWD': '/root/ros_ws/build/py_srvcli', 'LC_ALL': 'C.UTF-8', 'PYTHONPATH': '/root/ros_ws/build/py_srvcli/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/root/ros_ws/install/py_srvcli/lib/python3.10/site-packages:/root/ros_ws/build/task3:/root/ros_ws/install/task3/lib/python3.10/site-packages:/root/ros_ws/build/task2:/root/ros_ws/install/task2/lib/python3.10/site-packages:/root/ros_ws/build/sensorPkg:/root/ros_ws/install/sensorPkg/lib/python3.10/site-packages:/root/ros_ws/build/my_robot_controller:/root/ros_ws/install/my_robot_controller/lib/python3.10/site-packages:/root/ros_ws/install/custom_msgs/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages', 'COLCON': '1', 'CMAKE_PREFIX_PATH': '/root/ros_ws/install/custom_msgs'}, 'shell': False}
+[0.667806] (custom_msgs) StdoutLine: {'line': b'-- Found ament_cmake_ros: 0.10.0 (/opt/ros/humble/share/ament_cmake_ros/cmake)\n'}
+[0.705880] (-) TimerEvent: {}
+[0.806155] (-) TimerEvent: {}
+[0.824795] (my_robot_controller) StdoutLine: {'line': b'running develop\n'}
+[0.830826] (py_srvcli) StdoutLine: {'line': b'running develop\n'}
+[0.906243] (-) TimerEvent: {}
+[0.928547] (my_robot_controller) StdoutLine: {'line': b'running egg_info\n'}
+[0.928734] (my_robot_controller) StdoutLine: {'line': b'writing my_robot_controller.egg-info/PKG-INFO\n'}
+[0.928857] (my_robot_controller) StdoutLine: {'line': b'writing dependency_links to my_robot_controller.egg-info/dependency_links.txt\n'}
+[0.929000] (my_robot_controller) StdoutLine: {'line': b'writing entry points to my_robot_controller.egg-info/entry_points.txt\n'}
+[0.929101] (my_robot_controller) StdoutLine: {'line': b'writing requirements to my_robot_controller.egg-info/requires.txt\n'}
+[0.929184] (my_robot_controller) StdoutLine: {'line': b'writing top-level names to my_robot_controller.egg-info/top_level.txt\n'}
+[0.930418] (my_robot_controller) StdoutLine: {'line': b"reading manifest file 'my_robot_controller.egg-info/SOURCES.txt'\n"}
+[0.930958] (my_robot_controller) StdoutLine: {'line': b"writing manifest file 'my_robot_controller.egg-info/SOURCES.txt'\n"}
+[0.931951] (my_robot_controller) StdoutLine: {'line': b'running build_ext\n'}
+[0.932121] (my_robot_controller) StdoutLine: {'line': b'Creating /root/ros_ws/install/my_robot_controller/lib/python3.10/site-packages/my-robot-controller.egg-link (link to .)\n'}
+[0.932304] (py_srvcli) StdoutLine: {'line': b'running egg_info\n'}
+[0.932414] (py_srvcli) StdoutLine: {'line': b'creating py_srvcli.egg-info\n'}
+[0.932515] (py_srvcli) StdoutLine: {'line': b'writing py_srvcli.egg-info/PKG-INFO\n'}
+[0.932718] (py_srvcli) StdoutLine: {'line': b'writing dependency_links to py_srvcli.egg-info/dependency_links.txt\n'}
+[0.932854] (my_robot_controller) StdoutLine: {'line': b'Installing draw_circle script to /root/ros_ws/install/my_robot_controller/lib/my_robot_controller\n'}
+[0.933066] (my_robot_controller) StdoutLine: {'line': b'Installing firstNode script to /root/ros_ws/install/my_robot_controller/lib/my_robot_controller\n'}
+[0.933170] (py_srvcli) StdoutLine: {'line': b'writing entry points to py_srvcli.egg-info/entry_points.txt\n'}
+[0.933243] (py_srvcli) StdoutLine: {'line': b'writing requirements to py_srvcli.egg-info/requires.txt\n'}
+[0.933307] (py_srvcli) StdoutLine: {'line': b'writing top-level names to py_srvcli.egg-info/top_level.txt\n'}
+[0.933409] (my_robot_controller) StdoutLine: {'line': b'Installing listen script to /root/ros_ws/install/my_robot_controller/lib/my_robot_controller\n'}
+[0.933487] (py_srvcli) StdoutLine: {'line': b"writing manifest file 'py_srvcli.egg-info/SOURCES.txt'\n"}
+[0.933540] (my_robot_controller) StdoutLine: {'line': b'Installing sensor script to /root/ros_ws/install/my_robot_controller/lib/my_robot_controller\n'}
+[0.933590] (my_robot_controller) StdoutLine: {'line': b'Installing test script to /root/ros_ws/install/my_robot_controller/lib/my_robot_controller\n'}
+[0.933647] (my_robot_controller) StdoutLine: {'line': b'\n'}
+[0.933693] (my_robot_controller) StdoutLine: {'line': b'Installed /root/ros_ws/build/my_robot_controller\n'}
+[0.933739] (my_robot_controller) StdoutLine: {'line': b'running symlink_data\n'}
+[0.934181] (py_srvcli) StdoutLine: {'line': b"reading manifest file 'py_srvcli.egg-info/SOURCES.txt'\n"}
+[0.934565] (py_srvcli) StdoutLine: {'line': b"writing manifest file 'py_srvcli.egg-info/SOURCES.txt'\n"}
+[0.935562] (py_srvcli) StdoutLine: {'line': b'running build_ext\n'}
+[0.935713] (py_srvcli) StdoutLine: {'line': b'Creating /root/ros_ws/install/py_srvcli/lib/python3.10/site-packages/py-srvcli.egg-link (link to .)\n'}
+[0.936270] (py_srvcli) StdoutLine: {'line': b'\n'}
+[0.936343] (py_srvcli) StdoutLine: {'line': b'Installed /root/ros_ws/build/py_srvcli\n'}
+[0.936457] (py_srvcli) StdoutLine: {'line': b'running symlink_data\n'}
+[0.936648] (py_srvcli) StdoutLine: {'line': b'creating /root/ros_ws/install/py_srvcli/share/ament_index\n'}
+[0.936797] (py_srvcli) StdoutLine: {'line': b'creating /root/ros_ws/install/py_srvcli/share/ament_index/resource_index\n'}
+[0.936862] (py_srvcli) StdoutLine: {'line': b'creating /root/ros_ws/install/py_srvcli/share/ament_index/resource_index/packages\n'}
+[0.936918] (py_srvcli) StdoutLine: {'line': b'symbolically linking /root/ros_ws/build/py_srvcli/resource/py_srvcli -> /root/ros_ws/install/py_srvcli/share/ament_index/resource_index/packages\n'}
+[0.936973] (py_srvcli) StdoutLine: {'line': b'symbolically linking /root/ros_ws/build/py_srvcli/package.xml -> /root/ros_ws/install/py_srvcli/share/py_srvcli\n'}
+[0.959186] (my_robot_controller) CommandEnded: {'returncode': 0}
+[0.969188] (my_robot_controller) JobEnded: {'identifier': 'my_robot_controller', 'rc': 0}
+[0.970142] (py_srvcli) CommandEnded: {'returncode': 0}
+[0.975140] (py_srvcli) JobEnded: {'identifier': 'py_srvcli', 'rc': 0}
+[1.006333] (-) TimerEvent: {}
+[1.063939] (custom_msgs) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[1.106439] (-) TimerEvent: {}
+[1.206699] (-) TimerEvent: {}
+[1.306952] (-) TimerEvent: {}
+[1.407213] (-) TimerEvent: {}
+[1.507486] (-) TimerEvent: {}
+[1.570557] (custom_msgs) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[1.572302] (custom_msgs) StderrLine: {'line': b'\x1b[33mCMake Warning (dev) at /opt/ros/humble/share/rosidl_generator_py/cmake/rosidl_generator_py_generate_interfaces.cmake:20 (find_package):\n'}
+[1.572415] (custom_msgs) StderrLine: {'line': b'  Policy CMP0148 is not set: The FindPythonInterp and FindPythonLibs modules\n'}
+[1.572492] (custom_msgs) StderrLine: {'line': b'  are removed.  Run "cmake --help-policy CMP0148" for policy details.  Use\n'}
+[1.572548] (custom_msgs) StderrLine: {'line': b'  the cmake_policy command to set the policy and suppress this warning.\n'}
+[1.572592] (custom_msgs) StderrLine: {'line': b'\n'}
+[1.572635] (custom_msgs) StderrLine: {'line': b'Call Stack (most recent call first):\n'}
+[1.572676] (custom_msgs) StderrLine: {'line': b'  /opt/ros/humble/share/ament_cmake_core/cmake/core/ament_execute_extensions.cmake:48 (include)\n'}
+[1.572717] (custom_msgs) StderrLine: {'line': b'  /opt/ros/humble/share/rosidl_cmake/cmake/rosidl_generate_interfaces.cmake:286 (ament_execute_extensions)\n'}
+[1.572759] (custom_msgs) StderrLine: {'line': b'  CMakeLists.txt:9 (rosidl_generate_interfaces)\n'}
+[1.572799] (custom_msgs) StderrLine: {'line': b'This warning is for project developers.  Use -Wno-dev to suppress it.\n'}
+[1.572839] (custom_msgs) StderrLine: {'line': b'\x1b[0m\n'}
+[1.588790] (custom_msgs) StdoutLine: {'line': b'-- Found python_cmake_module: 0.10.0 (/opt/ros/humble/share/python_cmake_module/cmake)\n'}
+[1.589080] (custom_msgs) StderrLine: {'line': b'\x1b[33mCMake Warning (dev) at /opt/ros/humble/share/python_cmake_module/cmake/Modules/FindPythonExtra.cmake:52 (find_package):\n'}
+[1.589164] (custom_msgs) StderrLine: {'line': b'  Policy CMP0148 is not set: The FindPythonInterp and FindPythonLibs modules\n'}
+[1.589205] (custom_msgs) StderrLine: {'line': b'  are removed.  Run "cmake --help-policy CMP0148" for policy details.  Use\n'}
+[1.589244] (custom_msgs) StderrLine: {'line': b'  the cmake_policy command to set the policy and suppress this warning.\n'}
+[1.589281] (custom_msgs) StderrLine: {'line': b'\n'}
+[1.589317] (custom_msgs) StderrLine: {'line': b'Call Stack (most recent call first):\n'}
+[1.589353] (custom_msgs) StderrLine: {'line': b'  /opt/ros/humble/share/rosidl_generator_py/cmake/rosidl_generator_py_generate_interfaces.cmake:23 (find_package)\n'}
+[1.589390] (custom_msgs) StderrLine: {'line': b'  /opt/ros/humble/share/ament_cmake_core/cmake/core/ament_execute_extensions.cmake:48 (include)\n'}
+[1.589426] (custom_msgs) StderrLine: {'line': b'  /opt/ros/humble/share/rosidl_cmake/cmake/rosidl_generate_interfaces.cmake:286 (ament_execute_extensions)\n'}
+[1.589460] (custom_msgs) StderrLine: {'line': b'  CMakeLists.txt:9 (rosidl_generate_interfaces)\n'}
+[1.589495] (custom_msgs) StderrLine: {'line': b'This warning is for project developers.  Use -Wno-dev to suppress it.\n'}
+[1.589529] (custom_msgs) StderrLine: {'line': b'\x1b[0m\n'}
+[1.605503] (custom_msgs) StderrLine: {'line': b'\x1b[33mCMake Warning (dev) at /opt/ros/humble/share/python_cmake_module/cmake/Modules/FindPythonExtra.cmake:140 (find_package):\n'}
+[1.605618] (custom_msgs) StderrLine: {'line': b'  Policy CMP0148 is not set: The FindPythonInterp and FindPythonLibs modules\n'}
+[1.605676] (custom_msgs) StderrLine: {'line': b'  are removed.  Run "cmake --help-policy CMP0148" for policy details.  Use\n'}
+[1.605724] (custom_msgs) StderrLine: {'line': b'  the cmake_policy command to set the policy and suppress this warning.\n'}
+[1.605781] (custom_msgs) StderrLine: {'line': b'\n'}
+[1.605828] (custom_msgs) StderrLine: {'line': b'Call Stack (most recent call first):\n'}
+[1.605872] (custom_msgs) StderrLine: {'line': b'  /opt/ros/humble/share/rosidl_generator_py/cmake/rosidl_generator_py_generate_interfaces.cmake:23 (find_package)\n'}
+[1.605917] (custom_msgs) StderrLine: {'line': b'  /opt/ros/humble/share/ament_cmake_core/cmake/core/ament_execute_extensions.cmake:48 (include)\n'}
+[1.605961] (custom_msgs) StderrLine: {'line': b'  /opt/ros/humble/share/rosidl_cmake/cmake/rosidl_generate_interfaces.cmake:286 (ament_execute_extensions)\n'}
+[1.606006] (custom_msgs) StderrLine: {'line': b'  CMakeLists.txt:9 (rosidl_generate_interfaces)\n'}
+[1.606065] (custom_msgs) StderrLine: {'line': b'This warning is for project developers.  Use -Wno-dev to suppress it.\n'}
+[1.606112] (custom_msgs) StderrLine: {'line': b'\x1b[0m\n'}
+[1.606891] (custom_msgs) StdoutLine: {'line': b'-- Using PYTHON_EXECUTABLE: /usr/bin/python3\n'}
+[1.606952] (custom_msgs) StdoutLine: {'line': b'-- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.10\n'}
+[1.606990] (custom_msgs) StdoutLine: {'line': b'-- Using PYTHON_LIBRARIES: /usr/lib/x86_64-linux-gnu/libpython3.10.so\n'}
+[1.607514] (-) TimerEvent: {}
+[1.707719] (-) TimerEvent: {}
+[1.771443] (custom_msgs) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.12.15 (/opt/ros/humble/share/ament_lint_auto/cmake)\n'}
+[1.781025] (custom_msgs) StdoutLine: {'line': b"-- Added test 'lint_cmake' to check CMake code style\n"}
+[1.782416] (custom_msgs) StdoutLine: {'line': b"-- Added test 'xmllint' to check XML markup files\n"}
+[1.784639] (custom_msgs) StdoutLine: {'line': b'-- Configuring done (1.8s)\n'}
+[1.807790] (-) TimerEvent: {}
+[1.827800] (custom_msgs) StdoutLine: {'line': b'-- Generating done (0.0s)\n'}
+[1.844414] (custom_msgs) StdoutLine: {'line': b'-- Build files have been written to: /root/ros_ws/build/custom_msgs\n'}
+[1.859755] (custom_msgs) StdoutLine: {'line': b'[  1%] \x1b[1m\x1b[34mGenerating C code for ROS interfaces\x1b[0m\n'}
+[1.864497] (custom_msgs) StdoutLine: {'line': b'[  3%] \x1b[1m\x1b[34mGenerating C++ code for ROS interfaces\x1b[0m\n'}
+[1.864669] (custom_msgs) StdoutLine: {'line': b'[  5%] \x1b[1m\x1b[34mGenerating Rust code for ROS interfaces\x1b[0m\n'}
+[1.866592] (custom_msgs) StdoutLine: {'line': b'[  5%] Built target ament_cmake_python_symlink_custom_msgs\n'}
+[1.907888] (-) TimerEvent: {}
+[2.008159] (-) TimerEvent: {}
+[2.043398] (custom_msgs) StdoutLine: {'line': b'running egg_info\n'}
+[2.043873] (custom_msgs) StdoutLine: {'line': b'writing custom_msgs.egg-info/PKG-INFO\n'}
+[2.044035] (custom_msgs) StdoutLine: {'line': b'writing dependency_links to custom_msgs.egg-info/dependency_links.txt\n'}
+[2.044181] (custom_msgs) StdoutLine: {'line': b'writing top-level names to custom_msgs.egg-info/top_level.txt\n'}
+[2.045812] (custom_msgs) StdoutLine: {'line': b"reading manifest file 'custom_msgs.egg-info/SOURCES.txt'\n"}
+[2.046303] (custom_msgs) StdoutLine: {'line': b"writing manifest file 'custom_msgs.egg-info/SOURCES.txt'\n"}
+[2.066820] (custom_msgs) StdoutLine: {'line': b'[  5%] Built target ament_cmake_python_build_custom_msgs_egg\n'}
+[2.092765] (custom_msgs) StdoutLine: {'line': b'[  5%] Built target custom_msgs__rs\n'}
+[2.108236] (-) TimerEvent: {}
+[2.208460] (-) TimerEvent: {}
+[2.266166] (custom_msgs) StdoutLine: {'line': b'[  5%] Built target custom_msgs__cpp\n'}
+[2.266788] (custom_msgs) StdoutLine: {'line': b'[  7%] \x1b[32mBuilding C object CMakeFiles/custom_msgs__rosidl_generator_c.dir/rosidl_generator_c/custom_msgs/msg/detail/extended_vector3__functions.c.o\x1b[0m\n'}
+[2.266959] (custom_msgs) StdoutLine: {'line': b'[ 10%] \x1b[32mBuilding C object CMakeFiles/custom_msgs__rosidl_generator_c.dir/rosidl_generator_c/custom_msgs/msg/detail/robot_status__functions.c.o\x1b[0m\n'}
+[2.267052] (custom_msgs) StdoutLine: {'line': b'[ 10%] \x1b[32mBuilding C object CMakeFiles/custom_msgs__rosidl_generator_c.dir/rosidl_generator_c/custom_msgs/srv/detail/add_number__functions.c.o\x1b[0m\n'}
+[2.267251] (custom_msgs) StdoutLine: {'line': b'[ 12%] \x1b[32mBuilding C object CMakeFiles/custom_msgs__rosidl_generator_c.dir/rosidl_generator_c/custom_msgs/action/detail/count_down__functions.c.o\x1b[0m\n'}
+[2.271552] (custom_msgs) StdoutLine: {'line': b'[ 17%] \x1b[1m\x1b[34mGenerating C++ introspection for ROS interfaces\x1b[0m\n'}
+[2.271757] (custom_msgs) StdoutLine: {'line': b'[ 17%] \x1b[1m\x1b[34mGenerating C++ type support dispatch for ROS interfaces\x1b[0m\n'}
+[2.271825] (custom_msgs) StdoutLine: {'line': b'[ 17%] \x1b[1m\x1b[34mGenerating C++ type support for eProsima Fast-RTPS\x1b[0m\n'}
+[2.308564] (-) TimerEvent: {}
+[2.362222] (custom_msgs) StdoutLine: {'line': b'[ 19%] \x1b[1m\x1b[32mLinking C shared library libcustom_msgs__rosidl_generator_c.so\x1b[0m\n'}
+[2.389748] (custom_msgs) StdoutLine: {'line': b'[ 19%] Built target custom_msgs__rosidl_generator_c\n'}
+[2.395352] (custom_msgs) StdoutLine: {'line': b'[ 25%] \x1b[1m\x1b[34mGenerating C type support dispatch for ROS interfaces\x1b[0m\n'}
+[2.395542] (custom_msgs) StdoutLine: {'line': b'[ 25%] \x1b[1m\x1b[34mGenerating C type support for eProsima Fast-RTPS\x1b[0m\n'}
+[2.395614] (custom_msgs) StdoutLine: {'line': b'[ 25%] \x1b[1m\x1b[34mGenerating C introspection for ROS interfaces\x1b[0m\n'}
+[2.408661] (-) TimerEvent: {}
+[2.508940] (-) TimerEvent: {}
+[2.541870] (custom_msgs) StdoutLine: {'line': b'[ 28%] \x1b[32mBuilding CXX object CMakeFiles/custom_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/custom_msgs/msg/robot_status__type_support.cpp.o\x1b[0m\n'}
+[2.542083] (custom_msgs) StdoutLine: {'line': b'[ 28%] \x1b[32mBuilding CXX object CMakeFiles/custom_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/custom_msgs/msg/extended_vector3__type_support.cpp.o\x1b[0m\n'}
+[2.542369] (custom_msgs) StdoutLine: {'line': b'[ 30%] \x1b[32mBuilding CXX object CMakeFiles/custom_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/custom_msgs/srv/add_number__type_support.cpp.o\x1b[0m\n'}
+[2.543317] (custom_msgs) StdoutLine: {'line': b'[ 32%] \x1b[32mBuilding CXX object CMakeFiles/custom_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/custom_msgs/action/count_down__type_support.cpp.o\x1b[0m\n'}
+[2.609084] (-) TimerEvent: {}
+[2.609634] (custom_msgs) StdoutLine: {'line': b'[ 35%] \x1b[32mBuilding CXX object CMakeFiles/custom_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/custom_msgs/msg/detail/extended_vector3__type_support.cpp.o\x1b[0m\n'}
+[2.609888] (custom_msgs) StdoutLine: {'line': b'[ 35%] \x1b[32mBuilding CXX object CMakeFiles/custom_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/custom_msgs/msg/detail/robot_status__type_support.cpp.o\x1b[0m\n'}
+[2.610322] (custom_msgs) StdoutLine: {'line': b'[ 37%] \x1b[32mBuilding CXX object CMakeFiles/custom_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/custom_msgs/srv/detail/add_number__type_support.cpp.o\x1b[0m\n'}
+[2.610827] (custom_msgs) StdoutLine: {'line': b'[ 39%] \x1b[32mBuilding CXX object CMakeFiles/custom_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/custom_msgs/action/detail/count_down__type_support.cpp.o\x1b[0m\n'}
+[2.694345] (custom_msgs) StdoutLine: {'line': b'[ 41%] \x1b[32mBuilding CXX object CMakeFiles/custom_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/custom_msgs/msg/detail/dds_fastrtps/extended_vector3__type_support.cpp.o\x1b[0m\n'}
+[2.694671] (custom_msgs) StdoutLine: {'line': b'[ 42%] \x1b[32mBuilding CXX object CMakeFiles/custom_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/custom_msgs/srv/detail/dds_fastrtps/add_number__type_support.cpp.o\x1b[0m\n'}
+[2.695779] (custom_msgs) StdoutLine: {'line': b'[ 44%] \x1b[32mBuilding CXX object CMakeFiles/custom_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/custom_msgs/msg/detail/dds_fastrtps/robot_status__type_support.cpp.o\x1b[0m\n'}
+[2.699765] (custom_msgs) StdoutLine: {'line': b'[ 46%] \x1b[32mBuilding CXX object CMakeFiles/custom_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/custom_msgs/action/detail/dds_fastrtps/count_down__type_support.cpp.o\x1b[0m\n'}
+[2.711137] (-) TimerEvent: {}
+[2.714731] (custom_msgs) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/custom_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/custom_msgs/msg/extended_vector3__type_support.cpp.o\x1b[0m\n'}
+[2.715095] (custom_msgs) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/custom_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/custom_msgs/msg/robot_status__type_support.cpp.o\x1b[0m\n'}
+[2.758200] (custom_msgs) StdoutLine: {'line': b'[ 51%] \x1b[32mBuilding CXX object CMakeFiles/custom_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/custom_msgs/srv/add_number__type_support.cpp.o\x1b[0m\n'}
+[2.764864] (custom_msgs) StdoutLine: {'line': b'[ 53%] \x1b[32mBuilding CXX object CMakeFiles/custom_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/custom_msgs/action/count_down__type_support.cpp.o\x1b[0m\n'}
+[2.811256] (-) TimerEvent: {}
+[2.837099] (custom_msgs) StdoutLine: {'line': b'[ 55%] \x1b[1m\x1b[32mLinking CXX shared library libcustom_msgs__rosidl_typesupport_c.so\x1b[0m\n'}
+[2.864234] (custom_msgs) StdoutLine: {'line': b'[ 57%] \x1b[32mBuilding C object CMakeFiles/custom_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/custom_msgs/msg/detail/extended_vector3__type_support.c.o\x1b[0m\n'}
+[2.870407] (custom_msgs) StdoutLine: {'line': b'[ 58%] \x1b[32mBuilding C object CMakeFiles/custom_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/custom_msgs/msg/detail/robot_status__type_support.c.o\x1b[0m\n'}
+[2.870797] (custom_msgs) StdoutLine: {'line': b'[ 60%] \x1b[32mBuilding C object CMakeFiles/custom_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/custom_msgs/srv/detail/add_number__type_support.c.o\x1b[0m\n'}
+[2.886191] (custom_msgs) StdoutLine: {'line': b'[ 60%] Built target custom_msgs__rosidl_typesupport_c\n'}
+[2.893105] (custom_msgs) StdoutLine: {'line': b'[ 62%] \x1b[32mBuilding C object CMakeFiles/custom_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/custom_msgs/action/detail/count_down__type_support.c.o\x1b[0m\n'}
+[2.911427] (-) TimerEvent: {}
+[2.915219] (custom_msgs) StdoutLine: {'line': b'[ 64%] \x1b[32mBuilding CXX object CMakeFiles/custom_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/custom_msgs/msg/detail/extended_vector3__type_support_c.cpp.o\x1b[0m\n'}
+[2.916885] (custom_msgs) StdoutLine: {'line': b'[ 67%] \x1b[32mBuilding CXX object CMakeFiles/custom_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/custom_msgs/msg/detail/robot_status__type_support_c.cpp.o\x1b[0m\n'}
+[2.917178] (custom_msgs) StdoutLine: {'line': b'[ 67%] \x1b[32mBuilding CXX object CMakeFiles/custom_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/custom_msgs/srv/detail/add_number__type_support_c.cpp.o\x1b[0m\n'}
+[2.917288] (custom_msgs) StdoutLine: {'line': b'[ 69%] \x1b[32mBuilding CXX object CMakeFiles/custom_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/custom_msgs/action/detail/count_down__type_support_c.cpp.o\x1b[0m\n'}
+[2.959250] (custom_msgs) StdoutLine: {'line': b'[ 71%] \x1b[1m\x1b[32mLinking C shared library libcustom_msgs__rosidl_typesupport_introspection_c.so\x1b[0m\n'}
+[2.999114] (custom_msgs) StdoutLine: {'line': b'[ 71%] Built target custom_msgs__rosidl_typesupport_introspection_c\n'}
+[3.011559] (-) TimerEvent: {}
+[3.111968] (-) TimerEvent: {}
+[3.165535] (custom_msgs) StdoutLine: {'line': b'[ 73%] \x1b[1m\x1b[32mLinking CXX shared library libcustom_msgs__rosidl_typesupport_cpp.so\x1b[0m\n'}
+[3.201462] (custom_msgs) StdoutLine: {'line': b'[ 73%] Built target custom_msgs__rosidl_typesupport_cpp\n'}
+[3.212109] (-) TimerEvent: {}
+[3.312507] (-) TimerEvent: {}
+[3.326606] (custom_msgs) StdoutLine: {'line': b'[ 75%] \x1b[1m\x1b[32mLinking CXX shared library libcustom_msgs__rosidl_typesupport_fastrtps_c.so\x1b[0m\n'}
+[3.367145] (custom_msgs) StdoutLine: {'line': b'[ 76%] \x1b[1m\x1b[32mLinking CXX shared library libcustom_msgs__rosidl_typesupport_introspection_cpp.so\x1b[0m\n'}
+[3.377407] (custom_msgs) StdoutLine: {'line': b'[ 78%] \x1b[1m\x1b[32mLinking CXX shared library libcustom_msgs__rosidl_typesupport_fastrtps_cpp.so\x1b[0m\n'}
+[3.381375] (custom_msgs) StdoutLine: {'line': b'[ 78%] Built target custom_msgs__rosidl_typesupport_fastrtps_c\n'}
+[3.412630] (-) TimerEvent: {}
+[3.426355] (custom_msgs) StdoutLine: {'line': b'[ 78%] Built target custom_msgs__rosidl_typesupport_introspection_cpp\n'}
+[3.437953] (custom_msgs) StdoutLine: {'line': b'[ 78%] Built target custom_msgs__rosidl_typesupport_fastrtps_cpp\n'}
+[3.447868] (custom_msgs) StdoutLine: {'line': b'[ 78%] Built target custom_msgs\n'}
+[3.457226] (custom_msgs) StdoutLine: {'line': b'[ 80%] \x1b[1m\x1b[34mGenerating Python code for ROS interfaces\x1b[0m\n'}
+[3.512721] (-) TimerEvent: {}
+[3.612968] (-) TimerEvent: {}
+[3.713227] (-) TimerEvent: {}
+[3.813464] (-) TimerEvent: {}
+[3.913710] (-) TimerEvent: {}
+[4.013950] (-) TimerEvent: {}
+[4.105206] (custom_msgs) StdoutLine: {'line': b'[ 80%] Built target custom_msgs__py\n'}
+[4.114060] (-) TimerEvent: {}
+[4.119195] (custom_msgs) StdoutLine: {'line': b'[ 83%] \x1b[32mBuilding C object CMakeFiles/custom_msgs__rosidl_generator_py.dir/rosidl_generator_py/custom_msgs/srv/_add_number_s.c.o\x1b[0m\n'}
+[4.119402] (custom_msgs) StdoutLine: {'line': b'[ 83%] \x1b[32mBuilding C object CMakeFiles/custom_msgs__rosidl_generator_py.dir/rosidl_generator_py/custom_msgs/msg/_extended_vector3_s.c.o\x1b[0m\n'}
+[4.119482] (custom_msgs) StdoutLine: {'line': b'[ 87%] \x1b[32mBuilding C object CMakeFiles/custom_msgs__rosidl_generator_py.dir/rosidl_generator_py/custom_msgs/msg/_robot_status_s.c.o\x1b[0m\n'}
+[4.119552] (custom_msgs) StdoutLine: {'line': b'[ 87%] \x1b[32mBuilding C object CMakeFiles/custom_msgs__rosidl_generator_py.dir/rosidl_generator_py/custom_msgs/action/_count_down_s.c.o\x1b[0m\n'}
+[4.214149] (-) TimerEvent: {}
+[4.223330] (custom_msgs) StdoutLine: {'line': b'[ 89%] \x1b[1m\x1b[32mLinking C shared library rosidl_generator_py/custom_msgs/libcustom_msgs__rosidl_generator_py.so\x1b[0m\n'}
+[4.251286] (custom_msgs) StdoutLine: {'line': b'[ 89%] Built target custom_msgs__rosidl_generator_py\n'}
+[4.263391] (custom_msgs) StdoutLine: {'line': b'[ 92%] \x1b[32mBuilding C object CMakeFiles/custom_msgs__rosidl_typesupport_c__pyext.dir/rosidl_generator_py/custom_msgs/_custom_msgs_s.ep.rosidl_typesupport_c.c.o\x1b[0m\n'}
+[4.263564] (custom_msgs) StdoutLine: {'line': b'[ 92%] \x1b[32mBuilding C object CMakeFiles/custom_msgs__rosidl_typesupport_fastrtps_c__pyext.dir/rosidl_generator_py/custom_msgs/_custom_msgs_s.ep.rosidl_typesupport_fastrtps_c.c.o\x1b[0m\n'}
+[4.263615] (custom_msgs) StdoutLine: {'line': b'[ 94%] \x1b[32mBuilding C object CMakeFiles/custom_msgs__rosidl_typesupport_introspection_c__pyext.dir/rosidl_generator_py/custom_msgs/_custom_msgs_s.ep.rosidl_typesupport_introspection_c.c.o\x1b[0m\n'}
+[4.314250] (-) TimerEvent: {}
+[4.365546] (custom_msgs) StdoutLine: {'line': b'[ 98%] \x1b[1m\x1b[32mLinking C shared library rosidl_generator_py/custom_msgs/custom_msgs_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so\x1b[0m\n'}
+[4.365735] (custom_msgs) StdoutLine: {'line': b'[ 98%] \x1b[1m\x1b[32mLinking C shared library rosidl_generator_py/custom_msgs/custom_msgs_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so\x1b[0m\n'}
+[4.365810] (custom_msgs) StdoutLine: {'line': b'[100%] \x1b[1m\x1b[32mLinking C shared library rosidl_generator_py/custom_msgs/custom_msgs_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so\x1b[0m\n'}
+[4.395999] (custom_msgs) StdoutLine: {'line': b'[100%] Built target custom_msgs__rosidl_typesupport_introspection_c__pyext\n'}
+[4.396181] (custom_msgs) StdoutLine: {'line': b'[100%] Built target custom_msgs__rosidl_typesupport_c__pyext\n'}
+[4.396244] (custom_msgs) StdoutLine: {'line': b'[100%] Built target custom_msgs__rosidl_typesupport_fastrtps_c__pyext\n'}
+[4.401548] (custom_msgs) CommandEnded: {'returncode': 0}
+[4.402141] (custom_msgs) JobProgress: {'identifier': 'custom_msgs', 'progress': 'install'}
+[4.405561] (custom_msgs) Command: {'cmd': ['/usr/bin/cmake', '--install', '/root/ros_ws/build/custom_msgs'], 'cwd': '/root/ros_ws/build/custom_msgs', 'env': OrderedDict([('HOSTNAME', '686253f7c9d4'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/root/ros_ws/install/custom_msgs/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/root'), ('ROS_PYTHON_VERSION', '3'), ('COLCON_PREFIX_PATH', '/root/ros_ws/install'), ('ROS_DISTRO', 'humble'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('TERM', 'xterm-256color'), ('ROS_LOCALHOST_ONLY', '0'), ('QT_X11_NO_MITSHM', '1'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'), ('DISPLAY', ':0'), ('LANG', 'C.UTF-8'), ('AMENT_PREFIX_PATH', '/root/ros_ws/install/task3:/root/ros_ws/install/task2:/root/ros_ws/install/sensorPkg:/root/ros_ws/install/my_robot_controller:/root/ros_ws/install/custom_msgs:/opt/ros/humble'), ('PWD', '/root/ros_ws/build/custom_msgs'), ('LC_ALL', 'C.UTF-8'), ('PYTHONPATH', '/root/ros_ws/build/task3:/root/ros_ws/install/task3/lib/python3.10/site-packages:/root/ros_ws/build/task2:/root/ros_ws/install/task2/lib/python3.10/site-packages:/root/ros_ws/build/sensorPkg:/root/ros_ws/install/sensorPkg/lib/python3.10/site-packages:/root/ros_ws/build/my_robot_controller:/root/ros_ws/install/my_robot_controller/lib/python3.10/site-packages:/root/ros_ws/install/custom_msgs/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/root/ros_ws/install/custom_msgs:/root/ros_ws/install/task3:/root/ros_ws/install/task2:/root/ros_ws/install/sensorPkg:/root/ros_ws/install/my_robot_controller:/opt/ros/humble')]), 'shell': False}
+[4.408422] (custom_msgs) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[4.408855] (custom_msgs) StdoutLine: {'line': b'-- Execute custom install script\n'}
+[4.409012] (custom_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /root/ros_ws/install/custom_msgs/share/ament_index/resource_index/rosidl_interfaces/custom_msgs\n'}
+[4.409447] (custom_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /root/ros_ws/install/custom_msgs/include/custom_msgs/custom_msgs/action/count_down.h\n'}
+[4.409529] (custom_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /root/ros_ws/install/custom_msgs/include/custom_msgs/custom_msgs/action/detail/count_down__functions.h\n'}
+[4.409606] (custom_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /root/ros_ws/install/custom_msgs/include/custom_msgs/custom_msgs/action/detail/count_down__struct.h\n'}
+[4.409681] (custom_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /root/ros_ws/install/custom_msgs/include/custom_msgs/custom_msgs/action/detail/count_down__type_support.h\n'}
+[4.409754] (custom_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /root/ros_ws/install/custom_msgs/include/custom_msgs/custom_msgs/msg/detail/extended_vector3__functions.h\n'}
+[4.409835] (custom_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /root/ros_ws/install/custom_msgs/include/custom_msgs/custom_msgs/msg/detail/extended_vector3__struct.h\n'}
+[4.409944] (custom_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /root/ros_ws/install/custom_msgs/include/custom_msgs/custom_msgs/msg/detail/extended_vector3__type_support.h\n'}
+[4.410039] (custom_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /root/ros_ws/install/custom_msgs/include/custom_msgs/custom_msgs/msg/detail/robot_status__functions.h\n'}
+[4.410118] (custom_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /root/ros_ws/install/custom_msgs/include/custom_msgs/custom_msgs/msg/detail/robot_status__struct.h\n'}
+[4.410209] (custom_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /root/ros_ws/install/custom_msgs/include/custom_msgs/custom_msgs/msg/detail/robot_status__type_support.h\n'}
+[4.410282] (custom_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /root/ros_ws/install/custom_msgs/include/custom_msgs/custom_msgs/msg/extended_vector3.h\n'}
+[4.410349] (custom_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /root/ros_ws/install/custom_msgs/include/custom_msgs/custom_msgs/msg/robot_status.h\n'}
+[4.410417] (custom_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /root/ros_ws/install/custom_msgs/include/custom_msgs/custom_msgs/msg/rosidl_generator_c__visibility_control.h\n'}
+[4.410499] (custom_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /root/ros_ws/install/custom_msgs/include/custom_msgs/custom_msgs/srv/add_number.h\n'}
+[4.410560] (custom_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /root/ros_ws/install/custom_msgs/include/custom_msgs/custom_msgs/srv/detail/add_number__functions.h\n'}
+[4.410642] (custom_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /root/ros_ws/install/custom_msgs/include/custom_msgs/custom_msgs/srv/detail/add_number__struct.h\n'}
+[4.410701] (custom_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /root/ros_ws/install/custom_msgs/include/custom_msgs/custom_msgs/srv/detail/add_number__type_support.h\n'}
+[4.410764] (custom_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /root/ros_ws/install/custom_msgs/share/custom_msgs/environment/library_path.sh\n'}
+[4.410835] (custom_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /root/ros_ws/install/custom_msgs/share/custom_msgs/environment/library_path.dsv\n'}
+[4.411286] (custom_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /root/ros_ws/install/custom_msgs/include/custom_msgs/custom_msgs/action/detail/count_down__rosidl_typesupport_fastrtps_c.h\n'}
+[4.411361] (custom_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /root/ros_ws/install/custom_msgs/include/custom_msgs/custom_msgs/msg/detail/extended_vector3__rosidl_typesupport_fastrtps_c.h\n'}
+[4.411487] (custom_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /root/ros_ws/install/custom_msgs/include/custom_msgs/custom_msgs/msg/detail/robot_status__rosidl_typesupport_fastrtps_c.h\n'}
+[4.411602] (custom_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /root/ros_ws/install/custom_msgs/include/custom_msgs/custom_msgs/msg/rosidl_typesupport_fastrtps_c__visibility_control.h\n'}
+[4.411718] (custom_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /root/ros_ws/install/custom_msgs/include/custom_msgs/custom_msgs/srv/detail/add_number__rosidl_typesupport_fastrtps_c.h\n'}
+[4.411929] (custom_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /root/ros_ws/install/custom_msgs/include/custom_msgs/custom_msgs/action/detail/count_down__rosidl_typesupport_introspection_c.h\n'}
+[4.412067] (custom_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /root/ros_ws/install/custom_msgs/include/custom_msgs/custom_msgs/msg/detail/extended_vector3__rosidl_typesupport_introspection_c.h\n'}
+[4.412188] (custom_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /root/ros_ws/install/custom_msgs/include/custom_msgs/custom_msgs/msg/detail/robot_status__rosidl_typesupport_introspection_c.h\n'}
+[4.412250] (custom_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /root/ros_ws/install/custom_msgs/include/custom_msgs/custom_msgs/msg/rosidl_typesupport_introspection_c__visibility_control.h\n'}
+[4.412320] (custom_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /root/ros_ws/install/custom_msgs/include/custom_msgs/custom_msgs/srv/detail/add_number__rosidl_typesupport_introspection_c.h\n'}
+[4.412596] (custom_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /root/ros_ws/install/custom_msgs/include/custom_msgs/custom_msgs/action/count_down.hpp\n'}
+[4.412672] (custom_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /root/ros_ws/install/custom_msgs/include/custom_msgs/custom_msgs/action/detail/count_down__builder.hpp\n'}
+[4.412744] (custom_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /root/ros_ws/install/custom_msgs/include/custom_msgs/custom_msgs/action/detail/count_down__struct.hpp\n'}
+[4.412816] (custom_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /root/ros_ws/install/custom_msgs/include/custom_msgs/custom_msgs/action/detail/count_down__traits.hpp\n'}
+[4.412890] (custom_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /root/ros_ws/install/custom_msgs/include/custom_msgs/custom_msgs/action/detail/count_down__type_support.hpp\n'}
+[4.412965] (custom_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /root/ros_ws/install/custom_msgs/include/custom_msgs/custom_msgs/msg/detail/extended_vector3__builder.hpp\n'}
+[4.413075] (custom_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /root/ros_ws/install/custom_msgs/include/custom_msgs/custom_msgs/msg/detail/extended_vector3__struct.hpp\n'}
+[4.413214] (custom_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /root/ros_ws/install/custom_msgs/include/custom_msgs/custom_msgs/msg/detail/extended_vector3__traits.hpp\n'}
+[4.413295] (custom_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /root/ros_ws/install/custom_msgs/include/custom_msgs/custom_msgs/msg/detail/extended_vector3__type_support.hpp\n'}
+[4.413370] (custom_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /root/ros_ws/install/custom_msgs/include/custom_msgs/custom_msgs/msg/detail/robot_status__builder.hpp\n'}
+[4.413443] (custom_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /root/ros_ws/install/custom_msgs/include/custom_msgs/custom_msgs/msg/detail/robot_status__struct.hpp\n'}
+[4.413516] (custom_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /root/ros_ws/install/custom_msgs/include/custom_msgs/custom_msgs/msg/detail/robot_status__traits.hpp\n'}
+[4.413588] (custom_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /root/ros_ws/install/custom_msgs/include/custom_msgs/custom_msgs/msg/detail/robot_status__type_support.hpp\n'}
+[4.413658] (custom_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /root/ros_ws/install/custom_msgs/include/custom_msgs/custom_msgs/msg/extended_vector3.hpp\n'}
+[4.413727] (custom_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /root/ros_ws/install/custom_msgs/include/custom_msgs/custom_msgs/msg/robot_status.hpp\n'}
+[4.413798] (custom_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /root/ros_ws/install/custom_msgs/include/custom_msgs/custom_msgs/msg/rosidl_generator_cpp__visibility_control.hpp\n'}
+[4.413865] (custom_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /root/ros_ws/install/custom_msgs/include/custom_msgs/custom_msgs/srv/add_number.hpp\n'}
+[4.413938] (custom_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /root/ros_ws/install/custom_msgs/include/custom_msgs/custom_msgs/srv/detail/add_number__builder.hpp\n'}
+[4.414011] (custom_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /root/ros_ws/install/custom_msgs/include/custom_msgs/custom_msgs/srv/detail/add_number__struct.hpp\n'}
+[4.414090] (custom_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /root/ros_ws/install/custom_msgs/include/custom_msgs/custom_msgs/srv/detail/add_number__traits.hpp\n'}
+[4.414164] (custom_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /root/ros_ws/install/custom_msgs/include/custom_msgs/custom_msgs/srv/detail/add_number__type_support.hpp\n'}
+[4.414296] (-) TimerEvent: {}
+[4.414664] (custom_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /root/ros_ws/install/custom_msgs/include/custom_msgs/custom_msgs/action/detail/count_down__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[4.414738] (custom_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /root/ros_ws/install/custom_msgs/include/custom_msgs/custom_msgs/msg/detail/extended_vector3__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[4.414810] (custom_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /root/ros_ws/install/custom_msgs/include/custom_msgs/custom_msgs/msg/detail/robot_status__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[4.414878] (custom_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /root/ros_ws/install/custom_msgs/include/custom_msgs/custom_msgs/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h\n'}
+[4.414953] (custom_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /root/ros_ws/install/custom_msgs/include/custom_msgs/custom_msgs/srv/detail/add_number__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[4.415239] (custom_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /root/ros_ws/install/custom_msgs/include/custom_msgs/custom_msgs/action/detail/count_down__rosidl_typesupport_introspection_cpp.hpp\n'}
+[4.415314] (custom_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /root/ros_ws/install/custom_msgs/include/custom_msgs/custom_msgs/msg/detail/extended_vector3__rosidl_typesupport_introspection_cpp.hpp\n'}
+[4.415387] (custom_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /root/ros_ws/install/custom_msgs/include/custom_msgs/custom_msgs/msg/detail/robot_status__rosidl_typesupport_introspection_cpp.hpp\n'}
+[4.415462] (custom_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /root/ros_ws/install/custom_msgs/include/custom_msgs/custom_msgs/srv/detail/add_number__rosidl_typesupport_introspection_cpp.hpp\n'}
+[4.415558] (custom_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /root/ros_ws/install/custom_msgs/share/custom_msgs/environment/pythonpath.sh\n'}
+[4.415646] (custom_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /root/ros_ws/install/custom_msgs/share/custom_msgs/environment/pythonpath.dsv\n'}
+[4.415831] (custom_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /root/ros_ws/install/custom_msgs/local/lib/python3.10/dist-packages/custom_msgs-0.0.0-py3.10.egg-info/PKG-INFO\n'}
+[4.415904] (custom_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /root/ros_ws/install/custom_msgs/local/lib/python3.10/dist-packages/custom_msgs-0.0.0-py3.10.egg-info/SOURCES.txt\n'}
+[4.415975] (custom_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /root/ros_ws/install/custom_msgs/local/lib/python3.10/dist-packages/custom_msgs-0.0.0-py3.10.egg-info/dependency_links.txt\n'}
+[4.416062] (custom_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /root/ros_ws/install/custom_msgs/local/lib/python3.10/dist-packages/custom_msgs-0.0.0-py3.10.egg-info/top_level.txt\n'}
+[4.416618] (custom_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /root/ros_ws/install/custom_msgs/local/lib/python3.10/dist-packages/custom_msgs/__init__.py\n'}
+[4.416683] (custom_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /root/ros_ws/install/custom_msgs/local/lib/python3.10/dist-packages/custom_msgs/_custom_msgs_s.ep.rosidl_typesupport_c.c\n'}
+[4.416753] (custom_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /root/ros_ws/install/custom_msgs/local/lib/python3.10/dist-packages/custom_msgs/_custom_msgs_s.ep.rosidl_typesupport_fastrtps_c.c\n'}
+[4.416821] (custom_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /root/ros_ws/install/custom_msgs/local/lib/python3.10/dist-packages/custom_msgs/_custom_msgs_s.ep.rosidl_typesupport_introspection_c.c\n'}
+[4.416893] (custom_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /root/ros_ws/install/custom_msgs/local/lib/python3.10/dist-packages/custom_msgs/action/__init__.py\n'}
+[4.416965] (custom_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /root/ros_ws/install/custom_msgs/local/lib/python3.10/dist-packages/custom_msgs/action/_count_down.py\n'}
+[4.417044] (custom_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /root/ros_ws/install/custom_msgs/local/lib/python3.10/dist-packages/custom_msgs/action/_count_down_s.c\n'}
+[4.417152] (custom_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /root/ros_ws/install/custom_msgs/local/lib/python3.10/dist-packages/custom_msgs/custom_msgs_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so\n'}
+[4.417270] (custom_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /root/ros_ws/install/custom_msgs/local/lib/python3.10/dist-packages/custom_msgs/custom_msgs_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so\n'}
+[4.417365] (custom_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /root/ros_ws/install/custom_msgs/local/lib/python3.10/dist-packages/custom_msgs/custom_msgs_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so\n'}
+[4.417433] (custom_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /root/ros_ws/install/custom_msgs/local/lib/python3.10/dist-packages/custom_msgs/libcustom_msgs__rosidl_generator_py.so\n'}
+[4.417510] (custom_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /root/ros_ws/install/custom_msgs/local/lib/python3.10/dist-packages/custom_msgs/msg/__init__.py\n'}
+[4.417583] (custom_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /root/ros_ws/install/custom_msgs/local/lib/python3.10/dist-packages/custom_msgs/msg/_extended_vector3.py\n'}
+[4.417657] (custom_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /root/ros_ws/install/custom_msgs/local/lib/python3.10/dist-packages/custom_msgs/msg/_extended_vector3_s.c\n'}
+[4.417729] (custom_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /root/ros_ws/install/custom_msgs/local/lib/python3.10/dist-packages/custom_msgs/msg/_robot_status.py\n'}
+[4.417801] (custom_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /root/ros_ws/install/custom_msgs/local/lib/python3.10/dist-packages/custom_msgs/msg/_robot_status_s.c\n'}
+[4.417871] (custom_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /root/ros_ws/install/custom_msgs/local/lib/python3.10/dist-packages/custom_msgs/srv/__init__.py\n'}
+[4.417939] (custom_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /root/ros_ws/install/custom_msgs/local/lib/python3.10/dist-packages/custom_msgs/srv/_add_number.py\n'}
+[4.417996] (custom_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /root/ros_ws/install/custom_msgs/local/lib/python3.10/dist-packages/custom_msgs/srv/_add_number_s.c\n'}
+[4.418103] (custom_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /root/ros_ws/install/custom_msgs/local/lib/python3.10/dist-packages/custom_msgs/custom_msgs_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so\n'}
+[4.418240] (custom_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /root/ros_ws/install/custom_msgs/local/lib/python3.10/dist-packages/custom_msgs/custom_msgs_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so\n'}
+[4.418386] (custom_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /root/ros_ws/install/custom_msgs/local/lib/python3.10/dist-packages/custom_msgs/custom_msgs_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so\n'}
+[4.418487] (custom_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /root/ros_ws/install/custom_msgs/share/ament_index/resource_index/rust_packages/custom_msgs\n'}
+[4.418756] (custom_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /root/ros_ws/install/custom_msgs/share/custom_msgs/rust/Cargo.toml\n'}
+[4.418827] (custom_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /root/ros_ws/install/custom_msgs/share/custom_msgs/rust/build.rs\n'}
+[4.418902] (custom_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /root/ros_ws/install/custom_msgs/share/custom_msgs/rust/src/action.rs\n'}
+[4.418988] (custom_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /root/ros_ws/install/custom_msgs/share/custom_msgs/rust/src/action/rmw.rs\n'}
+[4.419079] (custom_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /root/ros_ws/install/custom_msgs/share/custom_msgs/rust/src/lib.rs\n'}
+[4.419156] (custom_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /root/ros_ws/install/custom_msgs/share/custom_msgs/rust/src/msg.rs\n'}
+[4.419243] (custom_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /root/ros_ws/install/custom_msgs/share/custom_msgs/rust/src/msg/rmw.rs\n'}
+[4.419323] (custom_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /root/ros_ws/install/custom_msgs/share/custom_msgs/rust/src/srv.rs\n'}
+[4.419409] (custom_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /root/ros_ws/install/custom_msgs/share/custom_msgs/rust/src/srv/rmw.rs\n'}
+[4.419523] (custom_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /root/ros_ws/install/custom_msgs/share/custom_msgs/msg/ExtendedVector3.idl\n'}
+[4.419628] (custom_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /root/ros_ws/install/custom_msgs/share/custom_msgs/msg/RobotStatus.idl\n'}
+[4.419731] (custom_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /root/ros_ws/install/custom_msgs/share/custom_msgs/srv/AddNumber.idl\n'}
+[4.419836] (custom_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /root/ros_ws/install/custom_msgs/share/custom_msgs/action/CountDown.idl\n'}
+[4.419928] (custom_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /root/ros_ws/install/custom_msgs/share/custom_msgs/msg/ExtendedVector3.msg\n'}
+[4.420012] (custom_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /root/ros_ws/install/custom_msgs/share/custom_msgs/msg/RobotStatus.msg\n'}
+[4.420230] (custom_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /root/ros_ws/install/custom_msgs/share/custom_msgs/srv/AddNumber.srv\n'}
+[4.420322] (custom_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /root/ros_ws/install/custom_msgs/share/custom_msgs/srv/AddNumber_Request.msg\n'}
+[4.420412] (custom_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /root/ros_ws/install/custom_msgs/share/custom_msgs/srv/AddNumber_Response.msg\n'}
+[4.420495] (custom_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /root/ros_ws/install/custom_msgs/share/custom_msgs/action/CountDown.action\n'}
+[4.420595] (custom_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /root/ros_ws/install/custom_msgs/share/ament_index/resource_index/package_run_dependencies/custom_msgs\n'}
+[4.420693] (custom_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /root/ros_ws/install/custom_msgs/share/ament_index/resource_index/parent_prefix_path/custom_msgs\n'}
+[4.420801] (custom_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /root/ros_ws/install/custom_msgs/share/custom_msgs/environment/ament_prefix_path.sh\n'}
+[4.420887] (custom_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /root/ros_ws/install/custom_msgs/share/custom_msgs/environment/ament_prefix_path.dsv\n'}
+[4.420986] (custom_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /root/ros_ws/install/custom_msgs/share/custom_msgs/environment/path.sh\n'}
+[4.421082] (custom_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /root/ros_ws/install/custom_msgs/share/custom_msgs/environment/path.dsv\n'}
+[4.421165] (custom_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /root/ros_ws/install/custom_msgs/share/custom_msgs/local_setup.bash\n'}
+[4.421248] (custom_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /root/ros_ws/install/custom_msgs/share/custom_msgs/local_setup.sh\n'}
+[4.421330] (custom_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /root/ros_ws/install/custom_msgs/share/custom_msgs/local_setup.zsh\n'}
+[4.421412] (custom_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /root/ros_ws/install/custom_msgs/share/custom_msgs/local_setup.dsv\n'}
+[4.421470] (custom_msgs) StdoutLine: {'line': b'-- Symlinking: /root/ros_ws/install/custom_msgs/share/custom_msgs/package.dsv\n'}
+[4.425180] (custom_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /root/ros_ws/install/custom_msgs/share/ament_index/resource_index/packages/custom_msgs\n'}
+[4.425308] (custom_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /root/ros_ws/install/custom_msgs/share/custom_msgs/cmake/rosidl_cmake-extras.cmake\n'}
+[4.425428] (custom_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /root/ros_ws/install/custom_msgs/share/custom_msgs/cmake/ament_cmake_export_dependencies-extras.cmake\n'}
+[4.425551] (custom_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /root/ros_ws/install/custom_msgs/share/custom_msgs/cmake/ament_cmake_export_include_directories-extras.cmake\n'}
+[4.425663] (custom_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /root/ros_ws/install/custom_msgs/share/custom_msgs/cmake/ament_cmake_export_libraries-extras.cmake\n'}
+[4.425771] (custom_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /root/ros_ws/install/custom_msgs/share/custom_msgs/cmake/ament_cmake_export_targets-extras.cmake\n'}
+[4.425865] (custom_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /root/ros_ws/install/custom_msgs/share/custom_msgs/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake\n'}
+[4.425950] (custom_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /root/ros_ws/install/custom_msgs/share/custom_msgs/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake\n'}
+[4.426044] (custom_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /root/ros_ws/install/custom_msgs/share/custom_msgs/cmake/custom_msgsConfig.cmake\n'}
+[4.426115] (custom_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /root/ros_ws/install/custom_msgs/share/custom_msgs/cmake/custom_msgsConfig-version.cmake\n'}
+[4.426196] (custom_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /root/ros_ws/install/custom_msgs/share/custom_msgs/package.xml\n'}
+[4.426356] (custom_msgs) StdoutLine: {'line': b'-- Installing: /root/ros_ws/install/custom_msgs/lib/libcustom_msgs__rosidl_generator_c.so\n'}
+[4.426716] (custom_msgs) StdoutLine: {'line': b'-- Set non-toolchain portion of runtime path of "/root/ros_ws/install/custom_msgs/lib/libcustom_msgs__rosidl_generator_c.so" to ""\n'}
+[4.426834] (custom_msgs) StdoutLine: {'line': b'-- Installing: /root/ros_ws/install/custom_msgs/lib/libcustom_msgs__rosidl_typesupport_fastrtps_c.so\n'}
+[4.427168] (custom_msgs) StdoutLine: {'line': b'-- Set non-toolchain portion of runtime path of "/root/ros_ws/install/custom_msgs/lib/libcustom_msgs__rosidl_typesupport_fastrtps_c.so" to ""\n'}
+[4.427277] (custom_msgs) StdoutLine: {'line': b'-- Installing: /root/ros_ws/install/custom_msgs/lib/libcustom_msgs__rosidl_typesupport_introspection_c.so\n'}
+[4.427559] (custom_msgs) StdoutLine: {'line': b'-- Set non-toolchain portion of runtime path of "/root/ros_ws/install/custom_msgs/lib/libcustom_msgs__rosidl_typesupport_introspection_c.so" to ""\n'}
+[4.427662] (custom_msgs) StdoutLine: {'line': b'-- Installing: /root/ros_ws/install/custom_msgs/lib/libcustom_msgs__rosidl_typesupport_c.so\n'}
+[4.427929] (custom_msgs) StdoutLine: {'line': b'-- Set non-toolchain portion of runtime path of "/root/ros_ws/install/custom_msgs/lib/libcustom_msgs__rosidl_typesupport_c.so" to ""\n'}
+[4.428042] (custom_msgs) StdoutLine: {'line': b'-- Installing: /root/ros_ws/install/custom_msgs/lib/libcustom_msgs__rosidl_typesupport_fastrtps_cpp.so\n'}
+[4.428411] (custom_msgs) StdoutLine: {'line': b'-- Set non-toolchain portion of runtime path of "/root/ros_ws/install/custom_msgs/lib/libcustom_msgs__rosidl_typesupport_fastrtps_cpp.so" to ""\n'}
+[4.428526] (custom_msgs) StdoutLine: {'line': b'-- Installing: /root/ros_ws/install/custom_msgs/lib/libcustom_msgs__rosidl_typesupport_introspection_cpp.so\n'}
+[4.428873] (custom_msgs) StdoutLine: {'line': b'-- Set non-toolchain portion of runtime path of "/root/ros_ws/install/custom_msgs/lib/libcustom_msgs__rosidl_typesupport_introspection_cpp.so" to ""\n'}
+[4.428977] (custom_msgs) StdoutLine: {'line': b'-- Installing: /root/ros_ws/install/custom_msgs/lib/libcustom_msgs__rosidl_typesupport_cpp.so\n'}
+[4.429294] (custom_msgs) StdoutLine: {'line': b'-- Set non-toolchain portion of runtime path of "/root/ros_ws/install/custom_msgs/lib/libcustom_msgs__rosidl_typesupport_cpp.so" to ""\n'}
+[4.463772] (custom_msgs) StdoutLine: {'line': b"Listing '/root/ros_ws/install/custom_msgs/local/lib/python3.10/dist-packages/custom_msgs'...\n"}
+[4.463934] (custom_msgs) StdoutLine: {'line': b"Compiling '/root/ros_ws/install/custom_msgs/local/lib/python3.10/dist-packages/custom_msgs/__init__.py'...\n"}
+[4.464004] (custom_msgs) StdoutLine: {'line': b"Listing '/root/ros_ws/install/custom_msgs/local/lib/python3.10/dist-packages/custom_msgs/action'...\n"}
+[4.464065] (custom_msgs) StdoutLine: {'line': b"Compiling '/root/ros_ws/install/custom_msgs/local/lib/python3.10/dist-packages/custom_msgs/action/__init__.py'...\n"}
+[4.464115] (custom_msgs) StdoutLine: {'line': b"Compiling '/root/ros_ws/install/custom_msgs/local/lib/python3.10/dist-packages/custom_msgs/action/_count_down.py'...\n"}
+[4.464160] (custom_msgs) StdoutLine: {'line': b"Listing '/root/ros_ws/install/custom_msgs/local/lib/python3.10/dist-packages/custom_msgs/msg'...\n"}
+[4.464202] (custom_msgs) StdoutLine: {'line': b"Compiling '/root/ros_ws/install/custom_msgs/local/lib/python3.10/dist-packages/custom_msgs/msg/__init__.py'...\n"}
+[4.464243] (custom_msgs) StdoutLine: {'line': b"Compiling '/root/ros_ws/install/custom_msgs/local/lib/python3.10/dist-packages/custom_msgs/msg/_extended_vector3.py'...\n"}
+[4.464283] (custom_msgs) StdoutLine: {'line': b"Compiling '/root/ros_ws/install/custom_msgs/local/lib/python3.10/dist-packages/custom_msgs/msg/_robot_status.py'...\n"}
+[4.464323] (custom_msgs) StdoutLine: {'line': b"Listing '/root/ros_ws/install/custom_msgs/local/lib/python3.10/dist-packages/custom_msgs/srv'...\n"}
+[4.464362] (custom_msgs) StdoutLine: {'line': b"Compiling '/root/ros_ws/install/custom_msgs/local/lib/python3.10/dist-packages/custom_msgs/srv/__init__.py'...\n"}
+[4.464402] (custom_msgs) StdoutLine: {'line': b"Compiling '/root/ros_ws/install/custom_msgs/local/lib/python3.10/dist-packages/custom_msgs/srv/_add_number.py'...\n"}
+[4.467374] (custom_msgs) StdoutLine: {'line': b'-- Installing: /root/ros_ws/install/custom_msgs/lib/libcustom_msgs__rosidl_generator_py.so\n'}
+[4.467791] (custom_msgs) StdoutLine: {'line': b'-- Set non-toolchain portion of runtime path of "/root/ros_ws/install/custom_msgs/lib/libcustom_msgs__rosidl_generator_py.so" to ""\n'}
+[4.467920] (custom_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/ros_ws/install/custom_msgs/share/custom_msgs/cmake/export_custom_msgs__rosidl_generator_cExport.cmake\n'}
+[4.468025] (custom_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/ros_ws/install/custom_msgs/share/custom_msgs/cmake/export_custom_msgs__rosidl_generator_cExport-noconfig.cmake\n'}
+[4.468130] (custom_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/ros_ws/install/custom_msgs/share/custom_msgs/cmake/export_custom_msgs__rosidl_typesupport_fastrtps_cExport.cmake\n'}
+[4.468190] (custom_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/ros_ws/install/custom_msgs/share/custom_msgs/cmake/export_custom_msgs__rosidl_typesupport_fastrtps_cExport-noconfig.cmake\n'}
+[4.468261] (custom_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/ros_ws/install/custom_msgs/share/custom_msgs/cmake/custom_msgs__rosidl_typesupport_introspection_cExport.cmake\n'}
+[4.468320] (custom_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/ros_ws/install/custom_msgs/share/custom_msgs/cmake/custom_msgs__rosidl_typesupport_introspection_cExport-noconfig.cmake\n'}
+[4.468374] (custom_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/ros_ws/install/custom_msgs/share/custom_msgs/cmake/custom_msgs__rosidl_typesupport_cExport.cmake\n'}
+[4.468429] (custom_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/ros_ws/install/custom_msgs/share/custom_msgs/cmake/custom_msgs__rosidl_typesupport_cExport-noconfig.cmake\n'}
+[4.468525] (custom_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/ros_ws/install/custom_msgs/share/custom_msgs/cmake/export_custom_msgs__rosidl_generator_cppExport.cmake\n'}
+[4.468579] (custom_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/ros_ws/install/custom_msgs/share/custom_msgs/cmake/export_custom_msgs__rosidl_typesupport_fastrtps_cppExport.cmake\n'}
+[4.468634] (custom_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/ros_ws/install/custom_msgs/share/custom_msgs/cmake/export_custom_msgs__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake\n'}
+[4.468684] (custom_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/ros_ws/install/custom_msgs/share/custom_msgs/cmake/custom_msgs__rosidl_typesupport_introspection_cppExport.cmake\n'}
+[4.468735] (custom_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/ros_ws/install/custom_msgs/share/custom_msgs/cmake/custom_msgs__rosidl_typesupport_introspection_cppExport-noconfig.cmake\n'}
+[4.468820] (custom_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/ros_ws/install/custom_msgs/share/custom_msgs/cmake/custom_msgs__rosidl_typesupport_cppExport.cmake\n'}
+[4.468877] (custom_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/ros_ws/install/custom_msgs/share/custom_msgs/cmake/custom_msgs__rosidl_typesupport_cppExport-noconfig.cmake\n'}
+[4.468912] (custom_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/ros_ws/install/custom_msgs/share/custom_msgs/cmake/export_custom_msgs__rosidl_generator_pyExport.cmake\n'}
+[4.468946] (custom_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/ros_ws/install/custom_msgs/share/custom_msgs/cmake/export_custom_msgs__rosidl_generator_pyExport-noconfig.cmake\n'}
+[4.470102] (custom_msgs) CommandEnded: {'returncode': 0}
+[4.482498] (custom_msgs) JobEnded: {'identifier': 'custom_msgs', 'rc': 0}
+[4.483353] (sensorPkg) JobStarted: {'identifier': 'sensorPkg'}
+[4.487800] (task2) JobStarted: {'identifier': 'task2'}
+[4.492749] (task3) JobStarted: {'identifier': 'task3'}
+[4.497509] (task4) JobStarted: {'identifier': 'task4'}
+[4.514377] (-) TimerEvent: {}
+[4.614599] (-) TimerEvent: {}
+[4.714855] (-) TimerEvent: {}
+[4.815473] (-) TimerEvent: {}
+[4.915738] (-) TimerEvent: {}
+[5.015991] (-) TimerEvent: {}
+[5.116284] (-) TimerEvent: {}
+[5.216557] (-) TimerEvent: {}
+[5.316804] (-) TimerEvent: {}
+[5.417088] (-) TimerEvent: {}
+[5.478510] (task3) Command: {'cmd': ['/usr/bin/python3', '-W', 'ignore:setup.py install is deprecated', '-W', 'ignore:easy_install command is deprecated', 'setup.py', 'develop', '--editable', '--build-directory', '/root/ros_ws/build/task3/build', '--no-deps', 'symlink_data'], 'cwd': '/root/ros_ws/build/task3', 'env': {'HOSTNAME': '686253f7c9d4', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/root/ros_ws/install/custom_msgs/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib', 'HOME': '/root', 'ROS_PYTHON_VERSION': '3', 'COLCON_PREFIX_PATH': '/root/ros_ws/install', 'ROS_DISTRO': 'humble', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'TERM': 'xterm-256color', 'ROS_LOCALHOST_ONLY': '0', 'QT_X11_NO_MITSHM': '1', 'PATH': '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin', 'DISPLAY': ':0', 'LANG': 'C.UTF-8', 'AMENT_PREFIX_PATH': '/root/ros_ws/install/task3:/root/ros_ws/install/task2:/root/ros_ws/install/sensorPkg:/root/ros_ws/install/my_robot_controller:/root/ros_ws/install/custom_msgs:/opt/ros/humble', 'PWD': '/root/ros_ws/build/task3', 'LC_ALL': 'C.UTF-8', 'PYTHONPATH': '/root/ros_ws/build/task3/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/root/ros_ws/install/task3/lib/python3.10/site-packages:/root/ros_ws/build/task3:/root/ros_ws/install/task3/lib/python3.10/site-packages:/root/ros_ws/build/task2:/root/ros_ws/install/task2/lib/python3.10/site-packages:/root/ros_ws/build/sensorPkg:/root/ros_ws/install/sensorPkg/lib/python3.10/site-packages:/root/ros_ws/build/my_robot_controller:/root/ros_ws/install/my_robot_controller/lib/python3.10/site-packages:/root/ros_ws/install/custom_msgs/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages', 'COLCON': '1', 'CMAKE_PREFIX_PATH': '/root/ros_ws/install/custom_msgs'}, 'shell': False}
+[5.480135] (sensorPkg) Command: {'cmd': ['/usr/bin/python3', '-W', 'ignore:setup.py install is deprecated', '-W', 'ignore:easy_install command is deprecated', 'setup.py', 'develop', '--editable', '--build-directory', '/root/ros_ws/build/sensorPkg/build', '--no-deps', 'symlink_data'], 'cwd': '/root/ros_ws/build/sensorPkg', 'env': {'HOSTNAME': '686253f7c9d4', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/root/ros_ws/install/custom_msgs/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib', 'HOME': '/root', 'ROS_PYTHON_VERSION': '3', 'COLCON_PREFIX_PATH': '/root/ros_ws/install', 'ROS_DISTRO': 'humble', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'TERM': 'xterm-256color', 'ROS_LOCALHOST_ONLY': '0', 'QT_X11_NO_MITSHM': '1', 'PATH': '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin', 'DISPLAY': ':0', 'LANG': 'C.UTF-8', 'AMENT_PREFIX_PATH': '/root/ros_ws/install/task3:/root/ros_ws/install/task2:/root/ros_ws/install/sensorPkg:/root/ros_ws/install/my_robot_controller:/root/ros_ws/install/custom_msgs:/opt/ros/humble', 'PWD': '/root/ros_ws/build/sensorPkg', 'LC_ALL': 'C.UTF-8', 'PYTHONPATH': '/root/ros_ws/build/sensorPkg/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/root/ros_ws/install/sensorPkg/lib/python3.10/site-packages:/root/ros_ws/build/task3:/root/ros_ws/install/task3/lib/python3.10/site-packages:/root/ros_ws/build/task2:/root/ros_ws/install/task2/lib/python3.10/site-packages:/root/ros_ws/build/sensorPkg:/root/ros_ws/install/sensorPkg/lib/python3.10/site-packages:/root/ros_ws/build/my_robot_controller:/root/ros_ws/install/my_robot_controller/lib/python3.10/site-packages:/root/ros_ws/install/custom_msgs/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages', 'COLCON': '1', 'CMAKE_PREFIX_PATH': '/root/ros_ws/install/custom_msgs'}, 'shell': False}
+[5.481696] (task2) Command: {'cmd': ['/usr/bin/python3', '-W', 'ignore:setup.py install is deprecated', '-W', 'ignore:easy_install command is deprecated', 'setup.py', 'develop', '--editable', '--build-directory', '/root/ros_ws/build/task2/build', '--no-deps', 'symlink_data'], 'cwd': '/root/ros_ws/build/task2', 'env': {'HOSTNAME': '686253f7c9d4', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/root/ros_ws/install/custom_msgs/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib', 'HOME': '/root', 'ROS_PYTHON_VERSION': '3', 'COLCON_PREFIX_PATH': '/root/ros_ws/install', 'ROS_DISTRO': 'humble', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'TERM': 'xterm-256color', 'ROS_LOCALHOST_ONLY': '0', 'QT_X11_NO_MITSHM': '1', 'PATH': '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin', 'DISPLAY': ':0', 'LANG': 'C.UTF-8', 'AMENT_PREFIX_PATH': '/root/ros_ws/install/task3:/root/ros_ws/install/task2:/root/ros_ws/install/sensorPkg:/root/ros_ws/install/my_robot_controller:/root/ros_ws/install/custom_msgs:/opt/ros/humble', 'PWD': '/root/ros_ws/build/task2', 'LC_ALL': 'C.UTF-8', 'PYTHONPATH': '/root/ros_ws/build/task2/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/root/ros_ws/install/task2/lib/python3.10/site-packages:/root/ros_ws/build/task3:/root/ros_ws/install/task3/lib/python3.10/site-packages:/root/ros_ws/build/task2:/root/ros_ws/install/task2/lib/python3.10/site-packages:/root/ros_ws/build/sensorPkg:/root/ros_ws/install/sensorPkg/lib/python3.10/site-packages:/root/ros_ws/build/my_robot_controller:/root/ros_ws/install/my_robot_controller/lib/python3.10/site-packages:/root/ros_ws/install/custom_msgs/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages', 'COLCON': '1', 'CMAKE_PREFIX_PATH': '/root/ros_ws/install/custom_msgs'}, 'shell': False}
+[5.492479] (task4) Command: {'cmd': ['/usr/bin/python3', '-W', 'ignore:setup.py install is deprecated', '-W', 'ignore:easy_install command is deprecated', 'setup.py', 'develop', '--editable', '--build-directory', '/root/ros_ws/build/task4/build', '--no-deps', 'symlink_data'], 'cwd': '/root/ros_ws/build/task4', 'env': {'HOSTNAME': '686253f7c9d4', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/root/ros_ws/install/custom_msgs/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib', 'HOME': '/root', 'ROS_PYTHON_VERSION': '3', 'COLCON_PREFIX_PATH': '/root/ros_ws/install', 'ROS_DISTRO': 'humble', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'TERM': 'xterm-256color', 'ROS_LOCALHOST_ONLY': '0', 'QT_X11_NO_MITSHM': '1', 'PATH': '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin', 'DISPLAY': ':0', 'LANG': 'C.UTF-8', 'AMENT_PREFIX_PATH': '/root/ros_ws/install/task3:/root/ros_ws/install/task2:/root/ros_ws/install/sensorPkg:/root/ros_ws/install/my_robot_controller:/root/ros_ws/install/custom_msgs:/opt/ros/humble', 'PWD': '/root/ros_ws/build/task4', 'LC_ALL': 'C.UTF-8', 'PYTHONPATH': '/root/ros_ws/build/task4/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/root/ros_ws/install/task4/lib/python3.10/site-packages:/root/ros_ws/build/task3:/root/ros_ws/install/task3/lib/python3.10/site-packages:/root/ros_ws/build/task2:/root/ros_ws/install/task2/lib/python3.10/site-packages:/root/ros_ws/build/sensorPkg:/root/ros_ws/install/sensorPkg/lib/python3.10/site-packages:/root/ros_ws/build/my_robot_controller:/root/ros_ws/install/my_robot_controller/lib/python3.10/site-packages:/root/ros_ws/install/custom_msgs/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages', 'COLCON': '1', 'CMAKE_PREFIX_PATH': '/root/ros_ws/install/custom_msgs'}, 'shell': False}
+[5.517177] (-) TimerEvent: {}
+[5.617432] (-) TimerEvent: {}
+[5.671061] (task3) StdoutLine: {'line': b'running develop\n'}
+[5.671261] (sensorPkg) StdoutLine: {'line': b'running develop\n'}
+[5.671356] (task2) StdoutLine: {'line': b'running develop\n'}
+[5.688895] (task4) StdoutLine: {'line': b'running develop\n'}
+[5.717534] (-) TimerEvent: {}
+[5.777266] (task2) StdoutLine: {'line': b'running egg_info\n'}
+[5.777440] (task2) StdoutLine: {'line': b'writing task2.egg-info/PKG-INFO\n'}
+[5.777600] (task2) StdoutLine: {'line': b'writing dependency_links to task2.egg-info/dependency_links.txt\n'}
+[5.777718] (task2) StdoutLine: {'line': b'writing entry points to task2.egg-info/entry_points.txt\n'}
+[5.777814] (task2) StdoutLine: {'line': b'writing requirements to task2.egg-info/requires.txt\n'}
+[5.777885] (task2) StdoutLine: {'line': b'writing top-level names to task2.egg-info/top_level.txt\n'}
+[5.778093] (sensorPkg) StdoutLine: {'line': b'running egg_info\n'}
+[5.778253] (sensorPkg) StdoutLine: {'line': b'writing sensorPkg.egg-info/PKG-INFO\n'}
+[5.778453] (sensorPkg) StdoutLine: {'line': b'writing dependency_links to sensorPkg.egg-info/dependency_links.txt\n'}
+[5.778596] (sensorPkg) StdoutLine: {'line': b'writing entry points to sensorPkg.egg-info/entry_points.txt\n'}
+[5.778703] (sensorPkg) StdoutLine: {'line': b'writing requirements to sensorPkg.egg-info/requires.txt\n'}
+[5.778782] (sensorPkg) StdoutLine: {'line': b'writing top-level names to sensorPkg.egg-info/top_level.txt\n'}
+[5.779213] (task2) StdoutLine: {'line': b"reading manifest file 'task2.egg-info/SOURCES.txt'\n"}
+[5.779639] (task3) StdoutLine: {'line': b'running egg_info\n'}
+[5.779737] (task2) StdoutLine: {'line': b"writing manifest file 'task2.egg-info/SOURCES.txt'\n"}
+[5.779814] (task3) StdoutLine: {'line': b'writing task3.egg-info/PKG-INFO\n'}
+[5.779971] (task3) StdoutLine: {'line': b'writing dependency_links to task3.egg-info/dependency_links.txt\n'}
+[5.780103] (sensorPkg) StdoutLine: {'line': b"reading manifest file 'sensorPkg.egg-info/SOURCES.txt'\n"}
+[5.780185] (task3) StdoutLine: {'line': b'writing entry points to task3.egg-info/entry_points.txt\n'}
+[5.780277] (task3) StdoutLine: {'line': b'writing requirements to task3.egg-info/requires.txt\n'}
+[5.780329] (task3) StdoutLine: {'line': b'writing top-level names to task3.egg-info/top_level.txt\n'}
+[5.780634] (sensorPkg) StdoutLine: {'line': b"writing manifest file 'sensorPkg.egg-info/SOURCES.txt'\n"}
+[5.780781] (task2) StdoutLine: {'line': b'running build_ext\n'}
+[5.780938] (task2) StdoutLine: {'line': b'Creating /root/ros_ws/install/task2/lib/python3.10/site-packages/task2.egg-link (link to .)\n'}
+[5.781560] (task2) StdoutLine: {'line': b'Installing publisher script to /root/ros_ws/install/task2/lib/task2\n'}
+[5.781607] (task3) StdoutLine: {'line': b"reading manifest file 'task3.egg-info/SOURCES.txt'\n"}
+[5.781673] (sensorPkg) StdoutLine: {'line': b'running build_ext\n'}
+[5.781744] (task2) StdoutLine: {'line': b'Installing subscriber script to /root/ros_ws/install/task2/lib/task2\n'}
+[5.781836] (sensorPkg) StdoutLine: {'line': b'Creating /root/ros_ws/install/sensorPkg/lib/python3.10/site-packages/sensorPkg.egg-link (link to .)\n'}
+[5.781906] (task2) StdoutLine: {'line': b'\n'}
+[5.781956] (task2) StdoutLine: {'line': b'Installed /root/ros_ws/build/task2\n'}
+[5.782012] (task2) StdoutLine: {'line': b'running symlink_data\n'}
+[5.782089] (task3) StdoutLine: {'line': b"writing manifest file 'task3.egg-info/SOURCES.txt'\n"}
+[5.782518] (sensorPkg) StdoutLine: {'line': b'Installing logger script to /root/ros_ws/install/sensorPkg/lib/sensorPkg\n'}
+[5.782656] (sensorPkg) StdoutLine: {'line': b'Installing sensor script to /root/ros_ws/install/sensorPkg/lib/sensorPkg\n'}
+[5.782772] (sensorPkg) StdoutLine: {'line': b'Installing subscriber script to /root/ros_ws/install/sensorPkg/lib/sensorPkg\n'}
+[5.782946] (sensorPkg) StdoutLine: {'line': b'\n'}
+[5.782996] (sensorPkg) StdoutLine: {'line': b'Installed /root/ros_ws/build/sensorPkg\n'}
+[5.783063] (sensorPkg) StdoutLine: {'line': b'running symlink_data\n'}
+[5.783212] (task3) StdoutLine: {'line': b'running build_ext\n'}
+[5.783371] (task3) StdoutLine: {'line': b'Creating /root/ros_ws/install/task3/lib/python3.10/site-packages/task3.egg-link (link to .)\n'}
+[5.783976] (task3) StdoutLine: {'line': b'Installing client script to /root/ros_ws/install/task3/lib/task3\n'}
+[5.784118] (task3) StdoutLine: {'line': b'Installing service script to /root/ros_ws/install/task3/lib/task3\n'}
+[5.784278] (task3) StdoutLine: {'line': b'\n'}
+[5.784337] (task3) StdoutLine: {'line': b'Installed /root/ros_ws/build/task3\n'}
+[5.784373] (task3) StdoutLine: {'line': b'running symlink_data\n'}
+[5.799880] (task4) StdoutLine: {'line': b'running egg_info\n'}
+[5.800081] (task4) StdoutLine: {'line': b'creating task4.egg-info\n'}
+[5.800185] (task4) StdoutLine: {'line': b'writing task4.egg-info/PKG-INFO\n'}
+[5.800364] (task4) StdoutLine: {'line': b'writing dependency_links to task4.egg-info/dependency_links.txt\n'}
+[5.800480] (task4) StdoutLine: {'line': b'writing entry points to task4.egg-info/entry_points.txt\n'}
+[5.800566] (task4) StdoutLine: {'line': b'writing requirements to task4.egg-info/requires.txt\n'}
+[5.800648] (task4) StdoutLine: {'line': b'writing top-level names to task4.egg-info/top_level.txt\n'}
+[5.800803] (task4) StdoutLine: {'line': b"writing manifest file 'task4.egg-info/SOURCES.txt'\n"}
+[5.802395] (task4) StdoutLine: {'line': b"reading manifest file 'task4.egg-info/SOURCES.txt'\n"}
+[5.802838] (task4) StdoutLine: {'line': b"writing manifest file 'task4.egg-info/SOURCES.txt'\n"}
+[5.804212] (task4) StdoutLine: {'line': b'running build_ext\n'}
+[5.804395] (task4) StdoutLine: {'line': b'Creating /root/ros_ws/install/task4/lib/python3.10/site-packages/task4.egg-link (link to .)\n'}
+[5.805107] (task4) StdoutLine: {'line': b'Installing client script to /root/ros_ws/install/task4/lib/task4\n'}
+[5.805259] (task4) StdoutLine: {'line': b'Installing server script to /root/ros_ws/install/task4/lib/task4\n'}
+[5.805406] (task4) StdoutLine: {'line': b'\n'}
+[5.805460] (task4) StdoutLine: {'line': b'Installed /root/ros_ws/build/task4\n'}
+[5.805513] (task4) StdoutLine: {'line': b'running symlink_data\n'}
+[5.805583] (task4) StdoutLine: {'line': b'creating /root/ros_ws/install/task4/share/ament_index\n'}
+[5.805631] (task4) StdoutLine: {'line': b'creating /root/ros_ws/install/task4/share/ament_index/resource_index\n'}
+[5.805693] (task4) StdoutLine: {'line': b'creating /root/ros_ws/install/task4/share/ament_index/resource_index/packages\n'}
+[5.805743] (task4) StdoutLine: {'line': b'symbolically linking /root/ros_ws/build/task4/resource/task4 -> /root/ros_ws/install/task4/share/ament_index/resource_index/packages\n'}
+[5.805807] (task4) StdoutLine: {'line': b'symbolically linking /root/ros_ws/build/task4/package.xml -> /root/ros_ws/install/task4/share/task4\n'}
+[5.817647] (-) TimerEvent: {}
+[5.821060] (task2) CommandEnded: {'returncode': 0}
+[5.826896] (task2) JobEnded: {'identifier': 'task2', 'rc': 0}
+[5.827898] (task3) CommandEnded: {'returncode': 0}
+[5.832855] (task3) JobEnded: {'identifier': 'task3', 'rc': 0}
+[5.833270] (sensorPkg) CommandEnded: {'returncode': 0}
+[5.839013] (sensorPkg) JobEnded: {'identifier': 'sensorPkg', 'rc': 0}
+[5.840514] (task4) CommandEnded: {'returncode': 0}
+[5.845945] (task4) JobEnded: {'identifier': 'task4', 'rc': 0}
+[5.846445] (-) EventReactorShutdown: {}

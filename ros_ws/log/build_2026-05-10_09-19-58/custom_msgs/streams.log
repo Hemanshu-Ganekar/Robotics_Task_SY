@@ -1,0 +1,325 @@
+[0.017s] Invoking command in '/root/ros_ws/build/custom_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/root/ros_ws/install/task3:/root/ros_ws/install/task2:/root/ros_ws/install/sensorPkg:/root/ros_ws/install/my_robot_controller:/opt/ros/humble /usr/bin/cmake --build /root/ros_ws/build/custom_msgs -- -j16 -l16
+[0.209s] -- Found ament_cmake: 1.3.14 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.209s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[0.209s] -- Found rosidl_default_generators: 1.2.1 (/opt/ros/humble/share/rosidl_default_generators/cmake)
+[0.209s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.209s] -- Found rosidl_adapter: 3.1.8 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.209s] [0mCMake Deprecation Warning at CMakeLists.txt:1 (cmake_minimum_required):
+[0.209s]   Compatibility with CMake < 3.10 will be removed from a future version of
+[0.209s]   CMake.
+[0.210s] 
+[0.210s]   Update the VERSION argument <min> value.  Or, use the <min>...<max> syntax
+[0.210s]   to tell CMake that the project requires at least <min> but has been updated
+[0.210s]   to work with policies introduced by <max> or earlier.
+[0.210s] 
+[0.210s] [0m
+[0.226s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.248s] -- Found geometry_msgs: 4.9.1 (/opt/ros/humble/share/geometry_msgs/cmake)
+[0.285s] -- Found action_msgs: 1.2.2 (/opt/ros/humble/share/action_msgs/cmake)
+[0.667s] -- Found ament_cmake_ros: 0.10.0 (/opt/ros/humble/share/ament_cmake_ros/cmake)
+[1.063s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.570s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.572s] [33mCMake Warning (dev) at /opt/ros/humble/share/rosidl_generator_py/cmake/rosidl_generator_py_generate_interfaces.cmake:20 (find_package):
+[1.572s]   Policy CMP0148 is not set: The FindPythonInterp and FindPythonLibs modules
+[1.572s]   are removed.  Run "cmake --help-policy CMP0148" for policy details.  Use
+[1.572s]   the cmake_policy command to set the policy and suppress this warning.
+[1.572s] 
+[1.572s] Call Stack (most recent call first):
+[1.572s]   /opt/ros/humble/share/ament_cmake_core/cmake/core/ament_execute_extensions.cmake:48 (include)
+[1.572s]   /opt/ros/humble/share/rosidl_cmake/cmake/rosidl_generate_interfaces.cmake:286 (ament_execute_extensions)
+[1.572s]   CMakeLists.txt:9 (rosidl_generate_interfaces)
+[1.572s] This warning is for project developers.  Use -Wno-dev to suppress it.
+[1.572s] [0m
+[1.588s] -- Found python_cmake_module: 0.10.0 (/opt/ros/humble/share/python_cmake_module/cmake)
+[1.588s] [33mCMake Warning (dev) at /opt/ros/humble/share/python_cmake_module/cmake/Modules/FindPythonExtra.cmake:52 (find_package):
+[1.588s]   Policy CMP0148 is not set: The FindPythonInterp and FindPythonLibs modules
+[1.589s]   are removed.  Run "cmake --help-policy CMP0148" for policy details.  Use
+[1.589s]   the cmake_policy command to set the policy and suppress this warning.
+[1.589s] 
+[1.589s] Call Stack (most recent call first):
+[1.589s]   /opt/ros/humble/share/rosidl_generator_py/cmake/rosidl_generator_py_generate_interfaces.cmake:23 (find_package)
+[1.589s]   /opt/ros/humble/share/ament_cmake_core/cmake/core/ament_execute_extensions.cmake:48 (include)
+[1.589s]   /opt/ros/humble/share/rosidl_cmake/cmake/rosidl_generate_interfaces.cmake:286 (ament_execute_extensions)
+[1.589s]   CMakeLists.txt:9 (rosidl_generate_interfaces)
+[1.589s] This warning is for project developers.  Use -Wno-dev to suppress it.
+[1.589s] [0m
+[1.605s] [33mCMake Warning (dev) at /opt/ros/humble/share/python_cmake_module/cmake/Modules/FindPythonExtra.cmake:140 (find_package):
+[1.605s]   Policy CMP0148 is not set: The FindPythonInterp and FindPythonLibs modules
+[1.605s]   are removed.  Run "cmake --help-policy CMP0148" for policy details.  Use
+[1.605s]   the cmake_policy command to set the policy and suppress this warning.
+[1.605s] 
+[1.605s] Call Stack (most recent call first):
+[1.605s]   /opt/ros/humble/share/rosidl_generator_py/cmake/rosidl_generator_py_generate_interfaces.cmake:23 (find_package)
+[1.605s]   /opt/ros/humble/share/ament_cmake_core/cmake/core/ament_execute_extensions.cmake:48 (include)
+[1.605s]   /opt/ros/humble/share/rosidl_cmake/cmake/rosidl_generate_interfaces.cmake:286 (ament_execute_extensions)
+[1.605s]   CMakeLists.txt:9 (rosidl_generate_interfaces)
+[1.605s] This warning is for project developers.  Use -Wno-dev to suppress it.
+[1.605s] [0m
+[1.606s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[1.606s] -- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.10
+[1.606s] -- Using PYTHON_LIBRARIES: /usr/lib/x86_64-linux-gnu/libpython3.10.so
+[1.771s] -- Found ament_lint_auto: 0.12.15 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[1.780s] -- Added test 'lint_cmake' to check CMake code style
+[1.782s] -- Added test 'xmllint' to check XML markup files
+[1.784s] -- Configuring done (1.8s)
+[1.827s] -- Generating done (0.0s)
+[1.844s] -- Build files have been written to: /root/ros_ws/build/custom_msgs
+[1.859s] [  1%] [1m[34mGenerating C code for ROS interfaces[0m
+[1.864s] [  3%] [1m[34mGenerating C++ code for ROS interfaces[0m
+[1.864s] [  5%] [1m[34mGenerating Rust code for ROS interfaces[0m
+[1.866s] [  5%] Built target ament_cmake_python_symlink_custom_msgs
+[2.043s] running egg_info
+[2.043s] writing custom_msgs.egg-info/PKG-INFO
+[2.043s] writing dependency_links to custom_msgs.egg-info/dependency_links.txt
+[2.044s] writing top-level names to custom_msgs.egg-info/top_level.txt
+[2.045s] reading manifest file 'custom_msgs.egg-info/SOURCES.txt'
+[2.046s] writing manifest file 'custom_msgs.egg-info/SOURCES.txt'
+[2.066s] [  5%] Built target ament_cmake_python_build_custom_msgs_egg
+[2.092s] [  5%] Built target custom_msgs__rs
+[2.266s] [  5%] Built target custom_msgs__cpp
+[2.266s] [  7%] [32mBuilding C object CMakeFiles/custom_msgs__rosidl_generator_c.dir/rosidl_generator_c/custom_msgs/msg/detail/extended_vector3__functions.c.o[0m
+[2.266s] [ 10%] [32mBuilding C object CMakeFiles/custom_msgs__rosidl_generator_c.dir/rosidl_generator_c/custom_msgs/msg/detail/robot_status__functions.c.o[0m
+[2.266s] [ 10%] [32mBuilding C object CMakeFiles/custom_msgs__rosidl_generator_c.dir/rosidl_generator_c/custom_msgs/srv/detail/add_number__functions.c.o[0m
+[2.267s] [ 12%] [32mBuilding C object CMakeFiles/custom_msgs__rosidl_generator_c.dir/rosidl_generator_c/custom_msgs/action/detail/count_down__functions.c.o[0m
+[2.271s] [ 17%] [1m[34mGenerating C++ introspection for ROS interfaces[0m
+[2.271s] [ 17%] [1m[34mGenerating C++ type support dispatch for ROS interfaces[0m
+[2.271s] [ 17%] [1m[34mGenerating C++ type support for eProsima Fast-RTPS[0m
+[2.362s] [ 19%] [1m[32mLinking C shared library libcustom_msgs__rosidl_generator_c.so[0m
+[2.389s] [ 19%] Built target custom_msgs__rosidl_generator_c
+[2.395s] [ 25%] [1m[34mGenerating C type support dispatch for ROS interfaces[0m
+[2.395s] [ 25%] [1m[34mGenerating C type support for eProsima Fast-RTPS[0m
+[2.395s] [ 25%] [1m[34mGenerating C introspection for ROS interfaces[0m
+[2.541s] [ 28%] [32mBuilding CXX object CMakeFiles/custom_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/custom_msgs/msg/robot_status__type_support.cpp.o[0m
+[2.541s] [ 28%] [32mBuilding CXX object CMakeFiles/custom_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/custom_msgs/msg/extended_vector3__type_support.cpp.o[0m
+[2.542s] [ 30%] [32mBuilding CXX object CMakeFiles/custom_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/custom_msgs/srv/add_number__type_support.cpp.o[0m
+[2.543s] [ 32%] [32mBuilding CXX object CMakeFiles/custom_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/custom_msgs/action/count_down__type_support.cpp.o[0m
+[2.609s] [ 35%] [32mBuilding CXX object CMakeFiles/custom_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/custom_msgs/msg/detail/extended_vector3__type_support.cpp.o[0m
+[2.609s] [ 35%] [32mBuilding CXX object CMakeFiles/custom_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/custom_msgs/msg/detail/robot_status__type_support.cpp.o[0m
+[2.610s] [ 37%] [32mBuilding CXX object CMakeFiles/custom_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/custom_msgs/srv/detail/add_number__type_support.cpp.o[0m
+[2.610s] [ 39%] [32mBuilding CXX object CMakeFiles/custom_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/custom_msgs/action/detail/count_down__type_support.cpp.o[0m
+[2.694s] [ 41%] [32mBuilding CXX object CMakeFiles/custom_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/custom_msgs/msg/detail/dds_fastrtps/extended_vector3__type_support.cpp.o[0m
+[2.694s] [ 42%] [32mBuilding CXX object CMakeFiles/custom_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/custom_msgs/srv/detail/dds_fastrtps/add_number__type_support.cpp.o[0m
+[2.695s] [ 44%] [32mBuilding CXX object CMakeFiles/custom_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/custom_msgs/msg/detail/dds_fastrtps/robot_status__type_support.cpp.o[0m
+[2.699s] [ 46%] [32mBuilding CXX object CMakeFiles/custom_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/custom_msgs/action/detail/dds_fastrtps/count_down__type_support.cpp.o[0m
+[2.714s] [ 50%] [32mBuilding CXX object CMakeFiles/custom_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/custom_msgs/msg/extended_vector3__type_support.cpp.o[0m
+[2.714s] [ 50%] [32mBuilding CXX object CMakeFiles/custom_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/custom_msgs/msg/robot_status__type_support.cpp.o[0m
+[2.758s] [ 51%] [32mBuilding CXX object CMakeFiles/custom_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/custom_msgs/srv/add_number__type_support.cpp.o[0m
+[2.764s] [ 53%] [32mBuilding CXX object CMakeFiles/custom_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/custom_msgs/action/count_down__type_support.cpp.o[0m
+[2.837s] [ 55%] [1m[32mLinking CXX shared library libcustom_msgs__rosidl_typesupport_c.so[0m
+[2.864s] [ 57%] [32mBuilding C object CMakeFiles/custom_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/custom_msgs/msg/detail/extended_vector3__type_support.c.o[0m
+[2.870s] [ 58%] [32mBuilding C object CMakeFiles/custom_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/custom_msgs/msg/detail/robot_status__type_support.c.o[0m
+[2.870s] [ 60%] [32mBuilding C object CMakeFiles/custom_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/custom_msgs/srv/detail/add_number__type_support.c.o[0m
+[2.886s] [ 60%] Built target custom_msgs__rosidl_typesupport_c
+[2.893s] [ 62%] [32mBuilding C object CMakeFiles/custom_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/custom_msgs/action/detail/count_down__type_support.c.o[0m
+[2.915s] [ 64%] [32mBuilding CXX object CMakeFiles/custom_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/custom_msgs/msg/detail/extended_vector3__type_support_c.cpp.o[0m
+[2.916s] [ 67%] [32mBuilding CXX object CMakeFiles/custom_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/custom_msgs/msg/detail/robot_status__type_support_c.cpp.o[0m
+[2.917s] [ 67%] [32mBuilding CXX object CMakeFiles/custom_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/custom_msgs/srv/detail/add_number__type_support_c.cpp.o[0m
+[2.917s] [ 69%] [32mBuilding CXX object CMakeFiles/custom_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/custom_msgs/action/detail/count_down__type_support_c.cpp.o[0m
+[2.959s] [ 71%] [1m[32mLinking C shared library libcustom_msgs__rosidl_typesupport_introspection_c.so[0m
+[2.999s] [ 71%] Built target custom_msgs__rosidl_typesupport_introspection_c
+[3.165s] [ 73%] [1m[32mLinking CXX shared library libcustom_msgs__rosidl_typesupport_cpp.so[0m
+[3.201s] [ 73%] Built target custom_msgs__rosidl_typesupport_cpp
+[3.326s] [ 75%] [1m[32mLinking CXX shared library libcustom_msgs__rosidl_typesupport_fastrtps_c.so[0m
+[3.367s] [ 76%] [1m[32mLinking CXX shared library libcustom_msgs__rosidl_typesupport_introspection_cpp.so[0m
+[3.377s] [ 78%] [1m[32mLinking CXX shared library libcustom_msgs__rosidl_typesupport_fastrtps_cpp.so[0m
+[3.381s] [ 78%] Built target custom_msgs__rosidl_typesupport_fastrtps_c
+[3.426s] [ 78%] Built target custom_msgs__rosidl_typesupport_introspection_cpp
+[3.437s] [ 78%] Built target custom_msgs__rosidl_typesupport_fastrtps_cpp
+[3.447s] [ 78%] Built target custom_msgs
+[3.457s] [ 80%] [1m[34mGenerating Python code for ROS interfaces[0m
+[4.105s] [ 80%] Built target custom_msgs__py
+[4.119s] [ 83%] [32mBuilding C object CMakeFiles/custom_msgs__rosidl_generator_py.dir/rosidl_generator_py/custom_msgs/srv/_add_number_s.c.o[0m
+[4.119s] [ 83%] [32mBuilding C object CMakeFiles/custom_msgs__rosidl_generator_py.dir/rosidl_generator_py/custom_msgs/msg/_extended_vector3_s.c.o[0m
+[4.119s] [ 87%] [32mBuilding C object CMakeFiles/custom_msgs__rosidl_generator_py.dir/rosidl_generator_py/custom_msgs/msg/_robot_status_s.c.o[0m
+[4.119s] [ 87%] [32mBuilding C object CMakeFiles/custom_msgs__rosidl_generator_py.dir/rosidl_generator_py/custom_msgs/action/_count_down_s.c.o[0m
+[4.223s] [ 89%] [1m[32mLinking C shared library rosidl_generator_py/custom_msgs/libcustom_msgs__rosidl_generator_py.so[0m
+[4.251s] [ 89%] Built target custom_msgs__rosidl_generator_py
+[4.263s] [ 92%] [32mBuilding C object CMakeFiles/custom_msgs__rosidl_typesupport_c__pyext.dir/rosidl_generator_py/custom_msgs/_custom_msgs_s.ep.rosidl_typesupport_c.c.o[0m
+[4.263s] [ 92%] [32mBuilding C object CMakeFiles/custom_msgs__rosidl_typesupport_fastrtps_c__pyext.dir/rosidl_generator_py/custom_msgs/_custom_msgs_s.ep.rosidl_typesupport_fastrtps_c.c.o[0m
+[4.263s] [ 94%] [32mBuilding C object CMakeFiles/custom_msgs__rosidl_typesupport_introspection_c__pyext.dir/rosidl_generator_py/custom_msgs/_custom_msgs_s.ep.rosidl_typesupport_introspection_c.c.o[0m
+[4.365s] [ 98%] [1m[32mLinking C shared library rosidl_generator_py/custom_msgs/custom_msgs_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so[0m
+[4.365s] [ 98%] [1m[32mLinking C shared library rosidl_generator_py/custom_msgs/custom_msgs_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so[0m
+[4.365s] [100%] [1m[32mLinking C shared library rosidl_generator_py/custom_msgs/custom_msgs_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so[0m
+[4.395s] [100%] Built target custom_msgs__rosidl_typesupport_introspection_c__pyext
+[4.395s] [100%] Built target custom_msgs__rosidl_typesupport_c__pyext
+[4.396s] [100%] Built target custom_msgs__rosidl_typesupport_fastrtps_c__pyext
+[4.401s] Invoked command in '/root/ros_ws/build/custom_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/root/ros_ws/install/task3:/root/ros_ws/install/task2:/root/ros_ws/install/sensorPkg:/root/ros_ws/install/my_robot_controller:/opt/ros/humble /usr/bin/cmake --build /root/ros_ws/build/custom_msgs -- -j16 -l16
+[4.405s] Invoking command in '/root/ros_ws/build/custom_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/root/ros_ws/install/task3:/root/ros_ws/install/task2:/root/ros_ws/install/sensorPkg:/root/ros_ws/install/my_robot_controller:/opt/ros/humble /usr/bin/cmake --install /root/ros_ws/build/custom_msgs
+[4.408s] -- Install configuration: ""
+[4.408s] -- Execute custom install script
+[4.408s] -- Up-to-date symlink: /root/ros_ws/install/custom_msgs/share/ament_index/resource_index/rosidl_interfaces/custom_msgs
+[4.409s] -- Up-to-date symlink: /root/ros_ws/install/custom_msgs/include/custom_msgs/custom_msgs/action/count_down.h
+[4.409s] -- Up-to-date symlink: /root/ros_ws/install/custom_msgs/include/custom_msgs/custom_msgs/action/detail/count_down__functions.h
+[4.409s] -- Up-to-date symlink: /root/ros_ws/install/custom_msgs/include/custom_msgs/custom_msgs/action/detail/count_down__struct.h
+[4.409s] -- Up-to-date symlink: /root/ros_ws/install/custom_msgs/include/custom_msgs/custom_msgs/action/detail/count_down__type_support.h
+[4.409s] -- Up-to-date symlink: /root/ros_ws/install/custom_msgs/include/custom_msgs/custom_msgs/msg/detail/extended_vector3__functions.h
+[4.409s] -- Up-to-date symlink: /root/ros_ws/install/custom_msgs/include/custom_msgs/custom_msgs/msg/detail/extended_vector3__struct.h
+[4.409s] -- Up-to-date symlink: /root/ros_ws/install/custom_msgs/include/custom_msgs/custom_msgs/msg/detail/extended_vector3__type_support.h
+[4.409s] -- Up-to-date symlink: /root/ros_ws/install/custom_msgs/include/custom_msgs/custom_msgs/msg/detail/robot_status__functions.h
+[4.409s] -- Up-to-date symlink: /root/ros_ws/install/custom_msgs/include/custom_msgs/custom_msgs/msg/detail/robot_status__struct.h
+[4.410s] -- Up-to-date symlink: /root/ros_ws/install/custom_msgs/include/custom_msgs/custom_msgs/msg/detail/robot_status__type_support.h
+[4.410s] -- Up-to-date symlink: /root/ros_ws/install/custom_msgs/include/custom_msgs/custom_msgs/msg/extended_vector3.h
+[4.410s] -- Up-to-date symlink: /root/ros_ws/install/custom_msgs/include/custom_msgs/custom_msgs/msg/robot_status.h
+[4.410s] -- Up-to-date symlink: /root/ros_ws/install/custom_msgs/include/custom_msgs/custom_msgs/msg/rosidl_generator_c__visibility_control.h
+[4.410s] -- Up-to-date symlink: /root/ros_ws/install/custom_msgs/include/custom_msgs/custom_msgs/srv/add_number.h
+[4.410s] -- Up-to-date symlink: /root/ros_ws/install/custom_msgs/include/custom_msgs/custom_msgs/srv/detail/add_number__functions.h
+[4.410s] -- Up-to-date symlink: /root/ros_ws/install/custom_msgs/include/custom_msgs/custom_msgs/srv/detail/add_number__struct.h
+[4.410s] -- Up-to-date symlink: /root/ros_ws/install/custom_msgs/include/custom_msgs/custom_msgs/srv/detail/add_number__type_support.h
+[4.410s] -- Up-to-date symlink: /root/ros_ws/install/custom_msgs/share/custom_msgs/environment/library_path.sh
+[4.410s] -- Up-to-date symlink: /root/ros_ws/install/custom_msgs/share/custom_msgs/environment/library_path.dsv
+[4.411s] -- Up-to-date symlink: /root/ros_ws/install/custom_msgs/include/custom_msgs/custom_msgs/action/detail/count_down__rosidl_typesupport_fastrtps_c.h
+[4.411s] -- Up-to-date symlink: /root/ros_ws/install/custom_msgs/include/custom_msgs/custom_msgs/msg/detail/extended_vector3__rosidl_typesupport_fastrtps_c.h
+[4.411s] -- Up-to-date symlink: /root/ros_ws/install/custom_msgs/include/custom_msgs/custom_msgs/msg/detail/robot_status__rosidl_typesupport_fastrtps_c.h
+[4.411s] -- Up-to-date symlink: /root/ros_ws/install/custom_msgs/include/custom_msgs/custom_msgs/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+[4.411s] -- Up-to-date symlink: /root/ros_ws/install/custom_msgs/include/custom_msgs/custom_msgs/srv/detail/add_number__rosidl_typesupport_fastrtps_c.h
+[4.411s] -- Up-to-date symlink: /root/ros_ws/install/custom_msgs/include/custom_msgs/custom_msgs/action/detail/count_down__rosidl_typesupport_introspection_c.h
+[4.411s] -- Up-to-date symlink: /root/ros_ws/install/custom_msgs/include/custom_msgs/custom_msgs/msg/detail/extended_vector3__rosidl_typesupport_introspection_c.h
+[4.412s] -- Up-to-date symlink: /root/ros_ws/install/custom_msgs/include/custom_msgs/custom_msgs/msg/detail/robot_status__rosidl_typesupport_introspection_c.h
+[4.412s] -- Up-to-date symlink: /root/ros_ws/install/custom_msgs/include/custom_msgs/custom_msgs/msg/rosidl_typesupport_introspection_c__visibility_control.h
+[4.412s] -- Up-to-date symlink: /root/ros_ws/install/custom_msgs/include/custom_msgs/custom_msgs/srv/detail/add_number__rosidl_typesupport_introspection_c.h
+[4.412s] -- Up-to-date symlink: /root/ros_ws/install/custom_msgs/include/custom_msgs/custom_msgs/action/count_down.hpp
+[4.412s] -- Up-to-date symlink: /root/ros_ws/install/custom_msgs/include/custom_msgs/custom_msgs/action/detail/count_down__builder.hpp
+[4.412s] -- Up-to-date symlink: /root/ros_ws/install/custom_msgs/include/custom_msgs/custom_msgs/action/detail/count_down__struct.hpp
+[4.412s] -- Up-to-date symlink: /root/ros_ws/install/custom_msgs/include/custom_msgs/custom_msgs/action/detail/count_down__traits.hpp
+[4.412s] -- Up-to-date symlink: /root/ros_ws/install/custom_msgs/include/custom_msgs/custom_msgs/action/detail/count_down__type_support.hpp
+[4.412s] -- Up-to-date symlink: /root/ros_ws/install/custom_msgs/include/custom_msgs/custom_msgs/msg/detail/extended_vector3__builder.hpp
+[4.412s] -- Up-to-date symlink: /root/ros_ws/install/custom_msgs/include/custom_msgs/custom_msgs/msg/detail/extended_vector3__struct.hpp
+[4.413s] -- Up-to-date symlink: /root/ros_ws/install/custom_msgs/include/custom_msgs/custom_msgs/msg/detail/extended_vector3__traits.hpp
+[4.413s] -- Up-to-date symlink: /root/ros_ws/install/custom_msgs/include/custom_msgs/custom_msgs/msg/detail/extended_vector3__type_support.hpp
+[4.413s] -- Up-to-date symlink: /root/ros_ws/install/custom_msgs/include/custom_msgs/custom_msgs/msg/detail/robot_status__builder.hpp
+[4.413s] -- Up-to-date symlink: /root/ros_ws/install/custom_msgs/include/custom_msgs/custom_msgs/msg/detail/robot_status__struct.hpp
+[4.413s] -- Up-to-date symlink: /root/ros_ws/install/custom_msgs/include/custom_msgs/custom_msgs/msg/detail/robot_status__traits.hpp
+[4.413s] -- Up-to-date symlink: /root/ros_ws/install/custom_msgs/include/custom_msgs/custom_msgs/msg/detail/robot_status__type_support.hpp
+[4.413s] -- Up-to-date symlink: /root/ros_ws/install/custom_msgs/include/custom_msgs/custom_msgs/msg/extended_vector3.hpp
+[4.413s] -- Up-to-date symlink: /root/ros_ws/install/custom_msgs/include/custom_msgs/custom_msgs/msg/robot_status.hpp
+[4.413s] -- Up-to-date symlink: /root/ros_ws/install/custom_msgs/include/custom_msgs/custom_msgs/msg/rosidl_generator_cpp__visibility_control.hpp
+[4.413s] -- Up-to-date symlink: /root/ros_ws/install/custom_msgs/include/custom_msgs/custom_msgs/srv/add_number.hpp
+[4.413s] -- Up-to-date symlink: /root/ros_ws/install/custom_msgs/include/custom_msgs/custom_msgs/srv/detail/add_number__builder.hpp
+[4.413s] -- Up-to-date symlink: /root/ros_ws/install/custom_msgs/include/custom_msgs/custom_msgs/srv/detail/add_number__struct.hpp
+[4.413s] -- Up-to-date symlink: /root/ros_ws/install/custom_msgs/include/custom_msgs/custom_msgs/srv/detail/add_number__traits.hpp
+[4.413s] -- Up-to-date symlink: /root/ros_ws/install/custom_msgs/include/custom_msgs/custom_msgs/srv/detail/add_number__type_support.hpp
+[4.414s] -- Up-to-date symlink: /root/ros_ws/install/custom_msgs/include/custom_msgs/custom_msgs/action/detail/count_down__rosidl_typesupport_fastrtps_cpp.hpp
+[4.414s] -- Up-to-date symlink: /root/ros_ws/install/custom_msgs/include/custom_msgs/custom_msgs/msg/detail/extended_vector3__rosidl_typesupport_fastrtps_cpp.hpp
+[4.414s] -- Up-to-date symlink: /root/ros_ws/install/custom_msgs/include/custom_msgs/custom_msgs/msg/detail/robot_status__rosidl_typesupport_fastrtps_cpp.hpp
+[4.414s] -- Up-to-date symlink: /root/ros_ws/install/custom_msgs/include/custom_msgs/custom_msgs/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+[4.414s] -- Up-to-date symlink: /root/ros_ws/install/custom_msgs/include/custom_msgs/custom_msgs/srv/detail/add_number__rosidl_typesupport_fastrtps_cpp.hpp
+[4.415s] -- Up-to-date symlink: /root/ros_ws/install/custom_msgs/include/custom_msgs/custom_msgs/action/detail/count_down__rosidl_typesupport_introspection_cpp.hpp
+[4.415s] -- Up-to-date symlink: /root/ros_ws/install/custom_msgs/include/custom_msgs/custom_msgs/msg/detail/extended_vector3__rosidl_typesupport_introspection_cpp.hpp
+[4.415s] -- Up-to-date symlink: /root/ros_ws/install/custom_msgs/include/custom_msgs/custom_msgs/msg/detail/robot_status__rosidl_typesupport_introspection_cpp.hpp
+[4.415s] -- Up-to-date symlink: /root/ros_ws/install/custom_msgs/include/custom_msgs/custom_msgs/srv/detail/add_number__rosidl_typesupport_introspection_cpp.hpp
+[4.415s] -- Up-to-date symlink: /root/ros_ws/install/custom_msgs/share/custom_msgs/environment/pythonpath.sh
+[4.415s] -- Up-to-date symlink: /root/ros_ws/install/custom_msgs/share/custom_msgs/environment/pythonpath.dsv
+[4.415s] -- Up-to-date symlink: /root/ros_ws/install/custom_msgs/local/lib/python3.10/dist-packages/custom_msgs-0.0.0-py3.10.egg-info/PKG-INFO
+[4.415s] -- Up-to-date symlink: /root/ros_ws/install/custom_msgs/local/lib/python3.10/dist-packages/custom_msgs-0.0.0-py3.10.egg-info/SOURCES.txt
+[4.415s] -- Up-to-date symlink: /root/ros_ws/install/custom_msgs/local/lib/python3.10/dist-packages/custom_msgs-0.0.0-py3.10.egg-info/dependency_links.txt
+[4.415s] -- Up-to-date symlink: /root/ros_ws/install/custom_msgs/local/lib/python3.10/dist-packages/custom_msgs-0.0.0-py3.10.egg-info/top_level.txt
+[4.416s] -- Up-to-date symlink: /root/ros_ws/install/custom_msgs/local/lib/python3.10/dist-packages/custom_msgs/__init__.py
+[4.416s] -- Up-to-date symlink: /root/ros_ws/install/custom_msgs/local/lib/python3.10/dist-packages/custom_msgs/_custom_msgs_s.ep.rosidl_typesupport_c.c
+[4.416s] -- Up-to-date symlink: /root/ros_ws/install/custom_msgs/local/lib/python3.10/dist-packages/custom_msgs/_custom_msgs_s.ep.rosidl_typesupport_fastrtps_c.c
+[4.416s] -- Up-to-date symlink: /root/ros_ws/install/custom_msgs/local/lib/python3.10/dist-packages/custom_msgs/_custom_msgs_s.ep.rosidl_typesupport_introspection_c.c
+[4.416s] -- Up-to-date symlink: /root/ros_ws/install/custom_msgs/local/lib/python3.10/dist-packages/custom_msgs/action/__init__.py
+[4.416s] -- Up-to-date symlink: /root/ros_ws/install/custom_msgs/local/lib/python3.10/dist-packages/custom_msgs/action/_count_down.py
+[4.416s] -- Up-to-date symlink: /root/ros_ws/install/custom_msgs/local/lib/python3.10/dist-packages/custom_msgs/action/_count_down_s.c
+[4.417s] -- Up-to-date symlink: /root/ros_ws/install/custom_msgs/local/lib/python3.10/dist-packages/custom_msgs/custom_msgs_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[4.417s] -- Up-to-date symlink: /root/ros_ws/install/custom_msgs/local/lib/python3.10/dist-packages/custom_msgs/custom_msgs_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[4.417s] -- Up-to-date symlink: /root/ros_ws/install/custom_msgs/local/lib/python3.10/dist-packages/custom_msgs/custom_msgs_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[4.417s] -- Up-to-date symlink: /root/ros_ws/install/custom_msgs/local/lib/python3.10/dist-packages/custom_msgs/libcustom_msgs__rosidl_generator_py.so
+[4.417s] -- Up-to-date symlink: /root/ros_ws/install/custom_msgs/local/lib/python3.10/dist-packages/custom_msgs/msg/__init__.py
+[4.417s] -- Up-to-date symlink: /root/ros_ws/install/custom_msgs/local/lib/python3.10/dist-packages/custom_msgs/msg/_extended_vector3.py
+[4.417s] -- Up-to-date symlink: /root/ros_ws/install/custom_msgs/local/lib/python3.10/dist-packages/custom_msgs/msg/_extended_vector3_s.c
+[4.417s] -- Up-to-date symlink: /root/ros_ws/install/custom_msgs/local/lib/python3.10/dist-packages/custom_msgs/msg/_robot_status.py
+[4.417s] -- Up-to-date symlink: /root/ros_ws/install/custom_msgs/local/lib/python3.10/dist-packages/custom_msgs/msg/_robot_status_s.c
+[4.417s] -- Up-to-date symlink: /root/ros_ws/install/custom_msgs/local/lib/python3.10/dist-packages/custom_msgs/srv/__init__.py
+[4.417s] -- Up-to-date symlink: /root/ros_ws/install/custom_msgs/local/lib/python3.10/dist-packages/custom_msgs/srv/_add_number.py
+[4.417s] -- Up-to-date symlink: /root/ros_ws/install/custom_msgs/local/lib/python3.10/dist-packages/custom_msgs/srv/_add_number_s.c
+[4.417s] -- Up-to-date symlink: /root/ros_ws/install/custom_msgs/local/lib/python3.10/dist-packages/custom_msgs/custom_msgs_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[4.418s] -- Up-to-date symlink: /root/ros_ws/install/custom_msgs/local/lib/python3.10/dist-packages/custom_msgs/custom_msgs_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[4.418s] -- Up-to-date symlink: /root/ros_ws/install/custom_msgs/local/lib/python3.10/dist-packages/custom_msgs/custom_msgs_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[4.418s] -- Up-to-date symlink: /root/ros_ws/install/custom_msgs/share/ament_index/resource_index/rust_packages/custom_msgs
+[4.418s] -- Up-to-date symlink: /root/ros_ws/install/custom_msgs/share/custom_msgs/rust/Cargo.toml
+[4.418s] -- Up-to-date symlink: /root/ros_ws/install/custom_msgs/share/custom_msgs/rust/build.rs
+[4.418s] -- Up-to-date symlink: /root/ros_ws/install/custom_msgs/share/custom_msgs/rust/src/action.rs
+[4.418s] -- Up-to-date symlink: /root/ros_ws/install/custom_msgs/share/custom_msgs/rust/src/action/rmw.rs
+[4.418s] -- Up-to-date symlink: /root/ros_ws/install/custom_msgs/share/custom_msgs/rust/src/lib.rs
+[4.418s] -- Up-to-date symlink: /root/ros_ws/install/custom_msgs/share/custom_msgs/rust/src/msg.rs
+[4.419s] -- Up-to-date symlink: /root/ros_ws/install/custom_msgs/share/custom_msgs/rust/src/msg/rmw.rs
+[4.419s] -- Up-to-date symlink: /root/ros_ws/install/custom_msgs/share/custom_msgs/rust/src/srv.rs
+[4.419s] -- Up-to-date symlink: /root/ros_ws/install/custom_msgs/share/custom_msgs/rust/src/srv/rmw.rs
+[4.419s] -- Up-to-date symlink: /root/ros_ws/install/custom_msgs/share/custom_msgs/msg/ExtendedVector3.idl
+[4.419s] -- Up-to-date symlink: /root/ros_ws/install/custom_msgs/share/custom_msgs/msg/RobotStatus.idl
+[4.419s] -- Up-to-date symlink: /root/ros_ws/install/custom_msgs/share/custom_msgs/srv/AddNumber.idl
+[4.419s] -- Up-to-date symlink: /root/ros_ws/install/custom_msgs/share/custom_msgs/action/CountDown.idl
+[4.419s] -- Up-to-date symlink: /root/ros_ws/install/custom_msgs/share/custom_msgs/msg/ExtendedVector3.msg
+[4.419s] -- Up-to-date symlink: /root/ros_ws/install/custom_msgs/share/custom_msgs/msg/RobotStatus.msg
+[4.420s] -- Up-to-date symlink: /root/ros_ws/install/custom_msgs/share/custom_msgs/srv/AddNumber.srv
+[4.420s] -- Up-to-date symlink: /root/ros_ws/install/custom_msgs/share/custom_msgs/srv/AddNumber_Request.msg
+[4.420s] -- Up-to-date symlink: /root/ros_ws/install/custom_msgs/share/custom_msgs/srv/AddNumber_Response.msg
+[4.420s] -- Up-to-date symlink: /root/ros_ws/install/custom_msgs/share/custom_msgs/action/CountDown.action
+[4.420s] -- Up-to-date symlink: /root/ros_ws/install/custom_msgs/share/ament_index/resource_index/package_run_dependencies/custom_msgs
+[4.420s] -- Up-to-date symlink: /root/ros_ws/install/custom_msgs/share/ament_index/resource_index/parent_prefix_path/custom_msgs
+[4.420s] -- Up-to-date symlink: /root/ros_ws/install/custom_msgs/share/custom_msgs/environment/ament_prefix_path.sh
+[4.420s] -- Up-to-date symlink: /root/ros_ws/install/custom_msgs/share/custom_msgs/environment/ament_prefix_path.dsv
+[4.420s] -- Up-to-date symlink: /root/ros_ws/install/custom_msgs/share/custom_msgs/environment/path.sh
+[4.420s] -- Up-to-date symlink: /root/ros_ws/install/custom_msgs/share/custom_msgs/environment/path.dsv
+[4.420s] -- Up-to-date symlink: /root/ros_ws/install/custom_msgs/share/custom_msgs/local_setup.bash
+[4.421s] -- Up-to-date symlink: /root/ros_ws/install/custom_msgs/share/custom_msgs/local_setup.sh
+[4.421s] -- Up-to-date symlink: /root/ros_ws/install/custom_msgs/share/custom_msgs/local_setup.zsh
+[4.421s] -- Up-to-date symlink: /root/ros_ws/install/custom_msgs/share/custom_msgs/local_setup.dsv
+[4.421s] -- Symlinking: /root/ros_ws/install/custom_msgs/share/custom_msgs/package.dsv
+[4.424s] -- Up-to-date symlink: /root/ros_ws/install/custom_msgs/share/ament_index/resource_index/packages/custom_msgs
+[4.425s] -- Up-to-date symlink: /root/ros_ws/install/custom_msgs/share/custom_msgs/cmake/rosidl_cmake-extras.cmake
+[4.425s] -- Up-to-date symlink: /root/ros_ws/install/custom_msgs/share/custom_msgs/cmake/ament_cmake_export_dependencies-extras.cmake
+[4.425s] -- Up-to-date symlink: /root/ros_ws/install/custom_msgs/share/custom_msgs/cmake/ament_cmake_export_include_directories-extras.cmake
+[4.425s] -- Up-to-date symlink: /root/ros_ws/install/custom_msgs/share/custom_msgs/cmake/ament_cmake_export_libraries-extras.cmake
+[4.425s] -- Up-to-date symlink: /root/ros_ws/install/custom_msgs/share/custom_msgs/cmake/ament_cmake_export_targets-extras.cmake
+[4.425s] -- Up-to-date symlink: /root/ros_ws/install/custom_msgs/share/custom_msgs/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+[4.425s] -- Up-to-date symlink: /root/ros_ws/install/custom_msgs/share/custom_msgs/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+[4.425s] -- Up-to-date symlink: /root/ros_ws/install/custom_msgs/share/custom_msgs/cmake/custom_msgsConfig.cmake
+[4.425s] -- Up-to-date symlink: /root/ros_ws/install/custom_msgs/share/custom_msgs/cmake/custom_msgsConfig-version.cmake
+[4.425s] -- Up-to-date symlink: /root/ros_ws/install/custom_msgs/share/custom_msgs/package.xml
+[4.426s] -- Installing: /root/ros_ws/install/custom_msgs/lib/libcustom_msgs__rosidl_generator_c.so
+[4.426s] -- Set non-toolchain portion of runtime path of "/root/ros_ws/install/custom_msgs/lib/libcustom_msgs__rosidl_generator_c.so" to ""
+[4.426s] -- Installing: /root/ros_ws/install/custom_msgs/lib/libcustom_msgs__rosidl_typesupport_fastrtps_c.so
+[4.426s] -- Set non-toolchain portion of runtime path of "/root/ros_ws/install/custom_msgs/lib/libcustom_msgs__rosidl_typesupport_fastrtps_c.so" to ""
+[4.427s] -- Installing: /root/ros_ws/install/custom_msgs/lib/libcustom_msgs__rosidl_typesupport_introspection_c.so
+[4.427s] -- Set non-toolchain portion of runtime path of "/root/ros_ws/install/custom_msgs/lib/libcustom_msgs__rosidl_typesupport_introspection_c.so" to ""
+[4.427s] -- Installing: /root/ros_ws/install/custom_msgs/lib/libcustom_msgs__rosidl_typesupport_c.so
+[4.427s] -- Set non-toolchain portion of runtime path of "/root/ros_ws/install/custom_msgs/lib/libcustom_msgs__rosidl_typesupport_c.so" to ""
+[4.427s] -- Installing: /root/ros_ws/install/custom_msgs/lib/libcustom_msgs__rosidl_typesupport_fastrtps_cpp.so
+[4.428s] -- Set non-toolchain portion of runtime path of "/root/ros_ws/install/custom_msgs/lib/libcustom_msgs__rosidl_typesupport_fastrtps_cpp.so" to ""
+[4.428s] -- Installing: /root/ros_ws/install/custom_msgs/lib/libcustom_msgs__rosidl_typesupport_introspection_cpp.so
+[4.428s] -- Set non-toolchain portion of runtime path of "/root/ros_ws/install/custom_msgs/lib/libcustom_msgs__rosidl_typesupport_introspection_cpp.so" to ""
+[4.428s] -- Installing: /root/ros_ws/install/custom_msgs/lib/libcustom_msgs__rosidl_typesupport_cpp.so
+[4.429s] -- Set non-toolchain portion of runtime path of "/root/ros_ws/install/custom_msgs/lib/libcustom_msgs__rosidl_typesupport_cpp.so" to ""
+[4.463s] Listing '/root/ros_ws/install/custom_msgs/local/lib/python3.10/dist-packages/custom_msgs'...
+[4.463s] Compiling '/root/ros_ws/install/custom_msgs/local/lib/python3.10/dist-packages/custom_msgs/__init__.py'...
+[4.463s] Listing '/root/ros_ws/install/custom_msgs/local/lib/python3.10/dist-packages/custom_msgs/action'...
+[4.463s] Compiling '/root/ros_ws/install/custom_msgs/local/lib/python3.10/dist-packages/custom_msgs/action/__init__.py'...
+[4.463s] Compiling '/root/ros_ws/install/custom_msgs/local/lib/python3.10/dist-packages/custom_msgs/action/_count_down.py'...
+[4.463s] Listing '/root/ros_ws/install/custom_msgs/local/lib/python3.10/dist-packages/custom_msgs/msg'...
+[4.463s] Compiling '/root/ros_ws/install/custom_msgs/local/lib/python3.10/dist-packages/custom_msgs/msg/__init__.py'...
+[4.464s] Compiling '/root/ros_ws/install/custom_msgs/local/lib/python3.10/dist-packages/custom_msgs/msg/_extended_vector3.py'...
+[4.464s] Compiling '/root/ros_ws/install/custom_msgs/local/lib/python3.10/dist-packages/custom_msgs/msg/_robot_status.py'...
+[4.464s] Listing '/root/ros_ws/install/custom_msgs/local/lib/python3.10/dist-packages/custom_msgs/srv'...
+[4.464s] Compiling '/root/ros_ws/install/custom_msgs/local/lib/python3.10/dist-packages/custom_msgs/srv/__init__.py'...
+[4.464s] Compiling '/root/ros_ws/install/custom_msgs/local/lib/python3.10/dist-packages/custom_msgs/srv/_add_number.py'...
+[4.467s] -- Installing: /root/ros_ws/install/custom_msgs/lib/libcustom_msgs__rosidl_generator_py.so
+[4.467s] -- Set non-toolchain portion of runtime path of "/root/ros_ws/install/custom_msgs/lib/libcustom_msgs__rosidl_generator_py.so" to ""
+[4.467s] -- Up-to-date: /root/ros_ws/install/custom_msgs/share/custom_msgs/cmake/export_custom_msgs__rosidl_generator_cExport.cmake
+[4.467s] -- Up-to-date: /root/ros_ws/install/custom_msgs/share/custom_msgs/cmake/export_custom_msgs__rosidl_generator_cExport-noconfig.cmake
+[4.467s] -- Up-to-date: /root/ros_ws/install/custom_msgs/share/custom_msgs/cmake/export_custom_msgs__rosidl_typesupport_fastrtps_cExport.cmake
+[4.467s] -- Up-to-date: /root/ros_ws/install/custom_msgs/share/custom_msgs/cmake/export_custom_msgs__rosidl_typesupport_fastrtps_cExport-noconfig.cmake
+[4.468s] -- Up-to-date: /root/ros_ws/install/custom_msgs/share/custom_msgs/cmake/custom_msgs__rosidl_typesupport_introspection_cExport.cmake
+[4.468s] -- Up-to-date: /root/ros_ws/install/custom_msgs/share/custom_msgs/cmake/custom_msgs__rosidl_typesupport_introspection_cExport-noconfig.cmake
+[4.468s] -- Up-to-date: /root/ros_ws/install/custom_msgs/share/custom_msgs/cmake/custom_msgs__rosidl_typesupport_cExport.cmake
+[4.468s] -- Up-to-date: /root/ros_ws/install/custom_msgs/share/custom_msgs/cmake/custom_msgs__rosidl_typesupport_cExport-noconfig.cmake
+[4.468s] -- Up-to-date: /root/ros_ws/install/custom_msgs/share/custom_msgs/cmake/export_custom_msgs__rosidl_generator_cppExport.cmake
+[4.468s] -- Up-to-date: /root/ros_ws/install/custom_msgs/share/custom_msgs/cmake/export_custom_msgs__rosidl_typesupport_fastrtps_cppExport.cmake
+[4.468s] -- Up-to-date: /root/ros_ws/install/custom_msgs/share/custom_msgs/cmake/export_custom_msgs__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake
+[4.468s] -- Up-to-date: /root/ros_ws/install/custom_msgs/share/custom_msgs/cmake/custom_msgs__rosidl_typesupport_introspection_cppExport.cmake
+[4.468s] -- Up-to-date: /root/ros_ws/install/custom_msgs/share/custom_msgs/cmake/custom_msgs__rosidl_typesupport_introspection_cppExport-noconfig.cmake
+[4.468s] -- Up-to-date: /root/ros_ws/install/custom_msgs/share/custom_msgs/cmake/custom_msgs__rosidl_typesupport_cppExport.cmake
+[4.468s] -- Up-to-date: /root/ros_ws/install/custom_msgs/share/custom_msgs/cmake/custom_msgs__rosidl_typesupport_cppExport-noconfig.cmake
+[4.468s] -- Up-to-date: /root/ros_ws/install/custom_msgs/share/custom_msgs/cmake/export_custom_msgs__rosidl_generator_pyExport.cmake
+[4.468s] -- Up-to-date: /root/ros_ws/install/custom_msgs/share/custom_msgs/cmake/export_custom_msgs__rosidl_generator_pyExport-noconfig.cmake
+[4.470s] Invoked command in '/root/ros_ws/build/custom_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/root/ros_ws/install/task3:/root/ros_ws/install/task2:/root/ros_ws/install/sensorPkg:/root/ros_ws/install/my_robot_controller:/opt/ros/humble /usr/bin/cmake --install /root/ros_ws/build/custom_msgs

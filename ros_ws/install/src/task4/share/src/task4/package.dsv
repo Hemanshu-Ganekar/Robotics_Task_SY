@@ -1,0 +1,6 @@
+source;share/src/task4/hook/pythonpath.ps1
+source;share/src/task4/hook/pythonpath.dsv
+source;share/src/task4/hook/pythonpath.sh
+source;../../../build/src/task4/share/src/task4/hook/pythonpath_develop.ps1
+source;../../../build/src/task4/share/src/task4/hook/pythonpath_develop.dsv
+source;../../../build/src/task4/share/src/task4/hook/pythonpath_develop.sh

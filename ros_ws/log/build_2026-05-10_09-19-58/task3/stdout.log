@@ -1,0 +1,16 @@
+running develop
+running egg_info
+writing task3.egg-info/PKG-INFO
+writing dependency_links to task3.egg-info/dependency_links.txt
+writing entry points to task3.egg-info/entry_points.txt
+writing requirements to task3.egg-info/requires.txt
+writing top-level names to task3.egg-info/top_level.txt
+reading manifest file 'task3.egg-info/SOURCES.txt'
+writing manifest file 'task3.egg-info/SOURCES.txt'
+running build_ext
+Creating /root/ros_ws/install/task3/lib/python3.10/site-packages/task3.egg-link (link to .)
+Installing client script to /root/ros_ws/install/task3/lib/task3
+Installing service script to /root/ros_ws/install/task3/lib/task3
+
+Installed /root/ros_ws/build/task3
+running symlink_data

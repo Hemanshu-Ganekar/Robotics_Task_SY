@@ -1,0 +1,25 @@
+running develop
+running egg_info
+creating src_task4.egg-info
+writing src_task4.egg-info/PKG-INFO
+writing dependency_links to src_task4.egg-info/dependency_links.txt
+writing entry points to src_task4.egg-info/entry_points.txt
+writing requirements to src_task4.egg-info/requires.txt
+writing top-level names to src_task4.egg-info/top_level.txt
+writing manifest file 'src_task4.egg-info/SOURCES.txt'
+reading manifest file 'src_task4.egg-info/SOURCES.txt'
+writing manifest file 'src_task4.egg-info/SOURCES.txt'
+running build_ext
+Creating /root/ros_ws/install/src/task4/lib/python3.10/site-packages/src-task4.egg-link (link to .)
+Installing server script to /root/ros_ws/install/src/task4/lib/src/task4
+
+Installed /root/ros_ws/build/src/task4
+running symlink_data
+creating /root/ros_ws/install/src/task4/share
+creating /root/ros_ws/install/src/task4/share/ament_index
+creating /root/ros_ws/install/src/task4/share/ament_index/resource_index
+creating /root/ros_ws/install/src/task4/share/ament_index/resource_index/packages
+symbolically linking /root/ros_ws/build/src/task4/resource/src/task4 -> /root/ros_ws/install/src/task4/share/ament_index/resource_index/packages
+creating /root/ros_ws/install/src/task4/share/src
+creating /root/ros_ws/install/src/task4/share/src/task4
+symbolically linking /root/ros_ws/build/src/task4/package.xml -> /root/ros_ws/install/src/task4/share/src/task4

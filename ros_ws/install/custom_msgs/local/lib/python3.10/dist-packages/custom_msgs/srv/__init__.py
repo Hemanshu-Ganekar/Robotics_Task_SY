@@ -1,0 +1,1 @@
+/root/ros_ws/build/custom_msgs/rosidl_generator_py/custom_msgs/srv/__init__.py

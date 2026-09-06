@@ -1,0 +1,15 @@
+package.xml
+setup.cfg
+setup.py
+resource/sensorPkg
+sensorPkg/__init__.py
+sensorPkg/logger.py
+sensorPkg/sensor.py
+sensorPkg/subscriber.py
+sensorPkg.egg-info/PKG-INFO
+sensorPkg.egg-info/SOURCES.txt
+sensorPkg.egg-info/dependency_links.txt
+sensorPkg.egg-info/entry_points.txt
+sensorPkg.egg-info/requires.txt
+sensorPkg.egg-info/top_level.txt
+sensorPkg.egg-info/zip-safe

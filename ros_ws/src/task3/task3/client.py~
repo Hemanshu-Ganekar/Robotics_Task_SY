@@ -1,0 +1,33 @@
+import rclpy
+from rclpy.node import Node
+
+from custom_msgs.srv import AddNumber
+
+class Client(Node):
+
+    def __init__(self):
+        super().__init__("add_client")
+        self.client = self.create_client(AddNumber,"/addNumber")
+        while not self.client.wait_for_service(timeout_sec=1.0):
+            self.get_logger().info("waiting for sevice....")
+    def send_req(self, a, b):
+        self.req = AddNumber.Request()
+        self.req.a = a
+        self.req.b = b
+        callback = self.client.call_async(self.req)
+        rclpy.spin_until_future_complete(self,callback)
+        return callback.result()
+
+def main(args=None):
+
+    rclpy.init(args=args)
+    client = Client()
+    res = client.send_req(13, 24)
+    client.get_logger().info(
+        f"Result: {res.sum}"
+    )
+    rclpy.shutdown()
+
+
+if __name__ == "__main__":
+    main()

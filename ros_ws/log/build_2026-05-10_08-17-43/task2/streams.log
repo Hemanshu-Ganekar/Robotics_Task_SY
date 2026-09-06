@@ -1,0 +1,18 @@
+[0.752s] Invoking command in '/root/ros_ws/build/task2': AMENT_PREFIX_PATH=/root/ros_ws/install/custom_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/root/ros_ws/install/custom_msgs LD_LIBRARY_PATH=/root/ros_ws/install/custom_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/root/ros_ws/build/task2/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/root/ros_ws/install/task2/lib/python3.10/site-packages:/root/ros_ws/install/custom_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /root/ros_ws/build/task2/build --no-deps symlink_data
+[0.928s] running develop
+[1.026s] running egg_info
+[1.026s] writing task2.egg-info/PKG-INFO
+[1.026s] writing dependency_links to task2.egg-info/dependency_links.txt
+[1.026s] writing entry points to task2.egg-info/entry_points.txt
+[1.027s] writing requirements to task2.egg-info/requires.txt
+[1.027s] writing top-level names to task2.egg-info/top_level.txt
+[1.028s] reading manifest file 'task2.egg-info/SOURCES.txt'
+[1.028s] writing manifest file 'task2.egg-info/SOURCES.txt'
+[1.029s] running build_ext
+[1.030s] Creating /root/ros_ws/install/task2/lib/python3.10/site-packages/task2.egg-link (link to .)
+[1.030s] Installing publisher script to /root/ros_ws/install/task2/lib/task2
+[1.030s] Installing subscriber script to /root/ros_ws/install/task2/lib/task2
+[1.031s] 
+[1.031s] Installed /root/ros_ws/build/task2
+[1.031s] running symlink_data
+[1.059s] Invoked command in '/root/ros_ws/build/task2' returned '0': AMENT_PREFIX_PATH=/root/ros_ws/install/custom_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/root/ros_ws/install/custom_msgs LD_LIBRARY_PATH=/root/ros_ws/install/custom_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/root/ros_ws/build/task2/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/root/ros_ws/install/task2/lib/python3.10/site-packages:/root/ros_ws/install/custom_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /root/ros_ws/build/task2/build --no-deps symlink_data

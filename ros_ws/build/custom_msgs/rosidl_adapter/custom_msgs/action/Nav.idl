@@ -1,0 +1,20 @@
+// generated from rosidl_adapter/resource/action.idl.em
+// with input from custom_msgs/action/Nav.action
+// generated code does not contain a copyright notice
+
+
+module custom_msgs {
+  module action {
+    struct Nav_Goal {
+      int32 x;
+
+      int32 y;
+    };
+    struct Nav_Result {
+      string status;
+    };
+    struct Nav_Feedback {
+      string left;
+    };
+  };
+};

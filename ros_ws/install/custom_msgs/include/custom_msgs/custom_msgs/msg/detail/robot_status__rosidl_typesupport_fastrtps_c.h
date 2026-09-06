@@ -1,0 +1,1 @@
+/root/ros_ws/build/custom_msgs/rosidl_typesupport_fastrtps_c/custom_msgs/msg/detail/robot_status__rosidl_typesupport_fastrtps_c.h

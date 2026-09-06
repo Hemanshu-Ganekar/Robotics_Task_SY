@@ -1,0 +1,14 @@
+package.xml
+setup.cfg
+setup.py
+resource/task3
+task3/__init__.py
+task3/client.py
+task3/service.py
+task3.egg-info/PKG-INFO
+task3.egg-info/SOURCES.txt
+task3.egg-info/dependency_links.txt
+task3.egg-info/entry_points.txt
+task3.egg-info/requires.txt
+task3.egg-info/top_level.txt
+task3.egg-info/zip-safe

@@ -1,0 +1,5 @@
+[console_scripts]
+logger = sensorPkg.logger:main
+sensor = sensorPkg.sensor:main
+subscriber = sensorPkg.subscriber:main
+

@@ -1,0 +1,1 @@
+/root/ros_ws/build/custom_msgs/rosidl_generator_py/custom_msgs/msg/_robot_status_s.c

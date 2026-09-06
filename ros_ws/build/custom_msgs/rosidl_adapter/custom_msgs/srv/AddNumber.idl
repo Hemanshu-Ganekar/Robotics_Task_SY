@@ -1,0 +1,17 @@
+// generated from rosidl_adapter/resource/srv.idl.em
+// with input from custom_msgs/srv/AddNumber.srv
+// generated code does not contain a copyright notice
+
+
+module custom_msgs {
+  module srv {
+    struct AddNumber_Request {
+      int32 a;
+
+      int32 b;
+    };
+    struct AddNumber_Response {
+      int64 sum;
+    };
+  };
+};

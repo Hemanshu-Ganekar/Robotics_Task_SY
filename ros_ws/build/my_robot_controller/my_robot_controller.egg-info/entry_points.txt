@@ -1,0 +1,7 @@
+[console_scripts]
+draw_circle = my_robot_controller.draw_circle:main
+firstNode = my_robot_controller.my_first_node:main
+listen = my_robot_controller.pose_subscriber:main
+sensor = my_robot_controller.sensor_node:main
+test = my_robot_controller.publisher_mini:main
+

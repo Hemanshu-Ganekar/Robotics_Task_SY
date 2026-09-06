@@ -1,0 +1,132 @@
+[0mCMake Deprecation Warning at CMakeLists.txt:1 (cmake_minimum_required):
+  Compatibility with CMake < 3.10 will be removed from a future version of
+  CMake.
+
+  Update the VERSION argument <min> value.  Or, use the <min>...<max> syntax
+  to tell CMake that the project requires at least <min> but has been updated
+  to work with policies introduced by <max> or earlier.
+
+[0m
+[33mCMake Warning (dev) at /opt/ros/humble/share/rosidl_generator_py/cmake/rosidl_generator_py_generate_interfaces.cmake:20 (find_package):
+  Policy CMP0148 is not set: The FindPythonInterp and FindPythonLibs modules
+  are removed.  Run "cmake --help-policy CMP0148" for policy details.  Use
+  the cmake_policy command to set the policy and suppress this warning.
+
+Call Stack (most recent call first):
+  /opt/ros/humble/share/ament_cmake_core/cmake/core/ament_execute_extensions.cmake:48 (include)
+  /opt/ros/humble/share/rosidl_cmake/cmake/rosidl_generate_interfaces.cmake:286 (ament_execute_extensions)
+  CMakeLists.txt:9 (rosidl_generate_interfaces)
+This warning is for project developers.  Use -Wno-dev to suppress it.
+[0m
+[33mCMake Warning (dev) at /opt/ros/humble/share/python_cmake_module/cmake/Modules/FindPythonExtra.cmake:52 (find_package):
+  Policy CMP0148 is not set: The FindPythonInterp and FindPythonLibs modules
+  are removed.  Run "cmake --help-policy CMP0148" for policy details.  Use
+  the cmake_policy command to set the policy and suppress this warning.
+
+Call Stack (most recent call first):
+  /opt/ros/humble/share/rosidl_generator_py/cmake/rosidl_generator_py_generate_interfaces.cmake:23 (find_package)
+  /opt/ros/humble/share/ament_cmake_core/cmake/core/ament_execute_extensions.cmake:48 (include)
+  /opt/ros/humble/share/rosidl_cmake/cmake/rosidl_generate_interfaces.cmake:286 (ament_execute_extensions)
+  CMakeLists.txt:9 (rosidl_generate_interfaces)
+This warning is for project developers.  Use -Wno-dev to suppress it.
+[0m
+[33mCMake Warning (dev) at /opt/ros/humble/share/python_cmake_module/cmake/Modules/FindPythonExtra.cmake:140 (find_package):
+  Policy CMP0148 is not set: The FindPythonInterp and FindPythonLibs modules
+  are removed.  Run "cmake --help-policy CMP0148" for policy details.  Use
+  the cmake_policy command to set the policy and suppress this warning.
+
+Call Stack (most recent call first):
+  /opt/ros/humble/share/rosidl_generator_py/cmake/rosidl_generator_py_generate_interfaces.cmake:23 (find_package)
+  /opt/ros/humble/share/ament_cmake_core/cmake/core/ament_execute_extensions.cmake:48 (include)
+  /opt/ros/humble/share/rosidl_cmake/cmake/rosidl_generate_interfaces.cmake:286 (ament_execute_extensions)
+  CMakeLists.txt:9 (rosidl_generate_interfaces)
+This warning is for project developers.  Use -Wno-dev to suppress it.
+[0m
+CMakeFiles/custom_msgs__cpp.dir/build.make:246: warning: overriding recipe for target 'rosidl_generator_cpp/custom_msgs/action/count_down.hpp'
+CMakeFiles/custom_msgs__cpp.dir/build.make:231: warning: ignoring old recipe for target 'rosidl_generator_cpp/custom_msgs/action/count_down.hpp'
+CMakeFiles/custom_msgs__cpp.dir/build.make:249: warning: overriding recipe for target 'rosidl_generator_cpp/custom_msgs/action/detail/count_down__builder.hpp'
+CMakeFiles/custom_msgs__cpp.dir/build.make:234: warning: ignoring old recipe for target 'rosidl_generator_cpp/custom_msgs/action/detail/count_down__builder.hpp'
+CMakeFiles/custom_msgs__cpp.dir/build.make:252: warning: overriding recipe for target 'rosidl_generator_cpp/custom_msgs/action/detail/count_down__struct.hpp'
+CMakeFiles/custom_msgs__cpp.dir/build.make:237: warning: ignoring old recipe for target 'rosidl_generator_cpp/custom_msgs/action/detail/count_down__struct.hpp'
+CMakeFiles/custom_msgs__cpp.dir/build.make:255: warning: overriding recipe for target 'rosidl_generator_cpp/custom_msgs/action/detail/count_down__traits.hpp'
+CMakeFiles/custom_msgs__cpp.dir/build.make:240: warning: ignoring old recipe for target 'rosidl_generator_cpp/custom_msgs/action/detail/count_down__traits.hpp'
+CMakeFiles/custom_msgs__cpp.dir/build.make:258: warning: overriding recipe for target 'rosidl_generator_cpp/custom_msgs/action/detail/count_down__type_support.hpp'
+CMakeFiles/custom_msgs__cpp.dir/build.make:243: warning: ignoring old recipe for target 'rosidl_generator_cpp/custom_msgs/action/detail/count_down__type_support.hpp'
+CMakeFiles/custom_msgs__rosidl_generator_c.dir/build.make:208: warning: overriding recipe for target 'rosidl_generator_c/custom_msgs/action/count_down.h'
+CMakeFiles/custom_msgs__rosidl_generator_c.dir/build.make:196: warning: ignoring old recipe for target 'rosidl_generator_c/custom_msgs/action/count_down.h'
+CMakeFiles/custom_msgs__rosidl_generator_c.dir/build.make:211: warning: overriding recipe for target 'rosidl_generator_c/custom_msgs/action/detail/count_down__functions.h'
+CMakeFiles/custom_msgs__rosidl_generator_c.dir/build.make:199: warning: ignoring old recipe for target 'rosidl_generator_c/custom_msgs/action/detail/count_down__functions.h'
+CMakeFiles/custom_msgs__rosidl_generator_c.dir/build.make:214: warning: overriding recipe for target 'rosidl_generator_c/custom_msgs/action/detail/count_down__struct.h'
+CMakeFiles/custom_msgs__rosidl_generator_c.dir/build.make:202: warning: ignoring old recipe for target 'rosidl_generator_c/custom_msgs/action/detail/count_down__struct.h'
+CMakeFiles/custom_msgs__rosidl_generator_c.dir/build.make:217: warning: overriding recipe for target 'rosidl_generator_c/custom_msgs/action/detail/count_down__type_support.h'
+CMakeFiles/custom_msgs__rosidl_generator_c.dir/build.make:205: warning: ignoring old recipe for target 'rosidl_generator_c/custom_msgs/action/detail/count_down__type_support.h'
+CMakeFiles/custom_msgs__rosidl_generator_c.dir/build.make:232: warning: overriding recipe for target 'rosidl_generator_c/custom_msgs/action/detail/count_down__functions.c'
+CMakeFiles/custom_msgs__rosidl_generator_c.dir/build.make:229: warning: ignoring old recipe for target 'rosidl_generator_c/custom_msgs/action/detail/count_down__functions.c'
+CMakeFiles/custom_msgs__cpp.dir/build.make:246: warning: overriding recipe for target 'rosidl_generator_cpp/custom_msgs/action/count_down.hpp'
+CMakeFiles/custom_msgs__cpp.dir/build.make:231: warning: ignoring old recipe for target 'rosidl_generator_cpp/custom_msgs/action/count_down.hpp'
+CMakeFiles/custom_msgs__cpp.dir/build.make:249: warning: overriding recipe for target 'rosidl_generator_cpp/custom_msgs/action/detail/count_down__builder.hpp'
+CMakeFiles/custom_msgs__cpp.dir/build.make:234: warning: ignoring old recipe for target 'rosidl_generator_cpp/custom_msgs/action/detail/count_down__builder.hpp'
+CMakeFiles/custom_msgs__cpp.dir/build.make:252: warning: overriding recipe for target 'rosidl_generator_cpp/custom_msgs/action/detail/count_down__struct.hpp'
+CMakeFiles/custom_msgs__cpp.dir/build.make:237: warning: ignoring old recipe for target 'rosidl_generator_cpp/custom_msgs/action/detail/count_down__struct.hpp'
+CMakeFiles/custom_msgs__cpp.dir/build.make:255: warning: overriding recipe for target 'rosidl_generator_cpp/custom_msgs/action/detail/count_down__traits.hpp'
+CMakeFiles/custom_msgs__cpp.dir/build.make:240: warning: ignoring old recipe for target 'rosidl_generator_cpp/custom_msgs/action/detail/count_down__traits.hpp'
+CMakeFiles/custom_msgs__cpp.dir/build.make:258: warning: overriding recipe for target 'rosidl_generator_cpp/custom_msgs/action/detail/count_down__type_support.hpp'
+CMakeFiles/custom_msgs__cpp.dir/build.make:243: warning: ignoring old recipe for target 'rosidl_generator_cpp/custom_msgs/action/detail/count_down__type_support.hpp'
+CMakeFiles/custom_msgs__rosidl_generator_c.dir/build.make:208: warning: overriding recipe for target 'rosidl_generator_c/custom_msgs/action/count_down.h'
+CMakeFiles/custom_msgs__rosidl_generator_c.dir/build.make:196: warning: ignoring old recipe for target 'rosidl_generator_c/custom_msgs/action/count_down.h'
+CMakeFiles/custom_msgs__rosidl_generator_c.dir/build.make:211: warning: overriding recipe for target 'rosidl_generator_c/custom_msgs/action/detail/count_down__functions.h'
+CMakeFiles/custom_msgs__rosidl_generator_c.dir/build.make:199: warning: ignoring old recipe for target 'rosidl_generator_c/custom_msgs/action/detail/count_down__functions.h'
+CMakeFiles/custom_msgs__rosidl_generator_c.dir/build.make:214: warning: overriding recipe for target 'rosidl_generator_c/custom_msgs/action/detail/count_down__struct.h'
+CMakeFiles/custom_msgs__rosidl_generator_c.dir/build.make:202: warning: ignoring old recipe for target 'rosidl_generator_c/custom_msgs/action/detail/count_down__struct.h'
+CMakeFiles/custom_msgs__rosidl_generator_c.dir/build.make:217: warning: overriding recipe for target 'rosidl_generator_c/custom_msgs/action/detail/count_down__type_support.h'
+CMakeFiles/custom_msgs__rosidl_generator_c.dir/build.make:205: warning: ignoring old recipe for target 'rosidl_generator_c/custom_msgs/action/detail/count_down__type_support.h'
+CMakeFiles/custom_msgs__rosidl_generator_c.dir/build.make:232: warning: overriding recipe for target 'rosidl_generator_c/custom_msgs/action/detail/count_down__functions.c'
+CMakeFiles/custom_msgs__rosidl_generator_c.dir/build.make:229: warning: ignoring old recipe for target 'rosidl_generator_c/custom_msgs/action/detail/count_down__functions.c'
+CMakeFiles/custom_msgs__rosidl_typesupport_cpp.dir/build.make:165: warning: overriding recipe for target 'rosidl_typesupport_cpp/custom_msgs/action/count_down__type_support.cpp'
+CMakeFiles/custom_msgs__rosidl_typesupport_cpp.dir/build.make:162: warning: ignoring old recipe for target 'rosidl_typesupport_cpp/custom_msgs/action/count_down__type_support.cpp'
+CMakeFiles/custom_msgs__rosidl_typesupport_fastrtps_cpp.dir/build.make:179: warning: overriding recipe for target 'rosidl_typesupport_fastrtps_cpp/custom_msgs/action/detail/dds_fastrtps/count_down__type_support.cpp'
+CMakeFiles/custom_msgs__rosidl_typesupport_fastrtps_cpp.dir/build.make:173: warning: ignoring old recipe for target 'rosidl_typesupport_fastrtps_cpp/custom_msgs/action/detail/dds_fastrtps/count_down__type_support.cpp'
+CMakeFiles/custom_msgs__rosidl_typesupport_fastrtps_cpp.dir/build.make:182: warning: overriding recipe for target 'rosidl_typesupport_fastrtps_cpp/custom_msgs/action/detail/count_down__rosidl_typesupport_fastrtps_cpp.hpp'
+CMakeFiles/custom_msgs__rosidl_typesupport_fastrtps_cpp.dir/build.make:176: warning: ignoring old recipe for target 'rosidl_typesupport_fastrtps_cpp/custom_msgs/action/detail/count_down__rosidl_typesupport_fastrtps_cpp.hpp'
+CMakeFiles/custom_msgs__rosidl_typesupport_introspection_cpp.dir/build.make:167: warning: overriding recipe for target 'rosidl_typesupport_introspection_cpp/custom_msgs/action/detail/count_down__rosidl_typesupport_introspection_cpp.hpp'
+CMakeFiles/custom_msgs__rosidl_typesupport_introspection_cpp.dir/build.make:164: warning: ignoring old recipe for target 'rosidl_typesupport_introspection_cpp/custom_msgs/action/detail/count_down__rosidl_typesupport_introspection_cpp.hpp'
+CMakeFiles/custom_msgs__rosidl_typesupport_introspection_cpp.dir/build.make:182: warning: overriding recipe for target 'rosidl_typesupport_introspection_cpp/custom_msgs/action/detail/count_down__type_support.cpp'
+CMakeFiles/custom_msgs__rosidl_typesupport_introspection_cpp.dir/build.make:179: warning: ignoring old recipe for target 'rosidl_typesupport_introspection_cpp/custom_msgs/action/detail/count_down__type_support.cpp'
+CMakeFiles/custom_msgs__rosidl_typesupport_cpp.dir/build.make:165: warning: overriding recipe for target 'rosidl_typesupport_cpp/custom_msgs/action/count_down__type_support.cpp'
+CMakeFiles/custom_msgs__rosidl_typesupport_cpp.dir/build.make:162: warning: ignoring old recipe for target 'rosidl_typesupport_cpp/custom_msgs/action/count_down__type_support.cpp'
+CMakeFiles/custom_msgs__rosidl_typesupport_introspection_cpp.dir/build.make:167: warning: overriding recipe for target 'rosidl_typesupport_introspection_cpp/custom_msgs/action/detail/count_down__rosidl_typesupport_introspection_cpp.hpp'
+CMakeFiles/custom_msgs__rosidl_typesupport_introspection_cpp.dir/build.make:164: warning: ignoring old recipe for target 'rosidl_typesupport_introspection_cpp/custom_msgs/action/detail/count_down__rosidl_typesupport_introspection_cpp.hpp'
+CMakeFiles/custom_msgs__rosidl_typesupport_introspection_cpp.dir/build.make:182: warning: overriding recipe for target 'rosidl_typesupport_introspection_cpp/custom_msgs/action/detail/count_down__type_support.cpp'
+CMakeFiles/custom_msgs__rosidl_typesupport_introspection_cpp.dir/build.make:179: warning: ignoring old recipe for target 'rosidl_typesupport_introspection_cpp/custom_msgs/action/detail/count_down__type_support.cpp'
+CMakeFiles/custom_msgs__rosidl_typesupport_fastrtps_cpp.dir/build.make:179: warning: overriding recipe for target 'rosidl_typesupport_fastrtps_cpp/custom_msgs/action/detail/dds_fastrtps/count_down__type_support.cpp'
+CMakeFiles/custom_msgs__rosidl_typesupport_fastrtps_cpp.dir/build.make:173: warning: ignoring old recipe for target 'rosidl_typesupport_fastrtps_cpp/custom_msgs/action/detail/dds_fastrtps/count_down__type_support.cpp'
+CMakeFiles/custom_msgs__rosidl_typesupport_fastrtps_cpp.dir/build.make:182: warning: overriding recipe for target 'rosidl_typesupport_fastrtps_cpp/custom_msgs/action/detail/count_down__rosidl_typesupport_fastrtps_cpp.hpp'
+CMakeFiles/custom_msgs__rosidl_typesupport_fastrtps_cpp.dir/build.make:176: warning: ignoring old recipe for target 'rosidl_typesupport_fastrtps_cpp/custom_msgs/action/detail/count_down__rosidl_typesupport_fastrtps_cpp.hpp'
+CMakeFiles/custom_msgs__rosidl_typesupport_introspection_c.dir/build.make:167: warning: overriding recipe for target 'rosidl_typesupport_introspection_c/custom_msgs/action/detail/count_down__rosidl_typesupport_introspection_c.h'
+CMakeFiles/custom_msgs__rosidl_typesupport_introspection_c.dir/build.make:164: warning: ignoring old recipe for target 'rosidl_typesupport_introspection_c/custom_msgs/action/detail/count_down__rosidl_typesupport_introspection_c.h'
+CMakeFiles/custom_msgs__rosidl_typesupport_introspection_c.dir/build.make:182: warning: overriding recipe for target 'rosidl_typesupport_introspection_c/custom_msgs/action/detail/count_down__type_support.c'
+CMakeFiles/custom_msgs__rosidl_typesupport_fastrtps_c.dir/build.make:179: warning: overriding recipe for target 'rosidl_typesupport_fastrtps_c/custom_msgs/action/detail/count_down__rosidl_typesupport_fastrtps_c.h'
+CMakeFiles/custom_msgs__rosidl_typesupport_introspection_c.dir/build.make:179: warning: ignoring old recipe for target 'rosidl_typesupport_introspection_c/custom_msgs/action/detail/count_down__type_support.c'
+CMakeFiles/custom_msgs__rosidl_typesupport_fastrtps_c.dir/build.make:173: warning: ignoring old recipe for target 'rosidl_typesupport_fastrtps_c/custom_msgs/action/detail/count_down__rosidl_typesupport_fastrtps_c.h'
+CMakeFiles/custom_msgs__rosidl_typesupport_fastrtps_c.dir/build.make:182: warning: overriding recipe for target 'rosidl_typesupport_fastrtps_c/custom_msgs/action/detail/count_down__type_support_c.cpp'
+CMakeFiles/custom_msgs__rosidl_typesupport_fastrtps_c.dir/build.make:176: warning: ignoring old recipe for target 'rosidl_typesupport_fastrtps_c/custom_msgs/action/detail/count_down__type_support_c.cpp'
+CMakeFiles/custom_msgs__rosidl_typesupport_c.dir/build.make:165: warning: overriding recipe for target 'rosidl_typesupport_c/custom_msgs/action/count_down__type_support.cpp'
+CMakeFiles/custom_msgs__rosidl_typesupport_c.dir/build.make:162: warning: ignoring old recipe for target 'rosidl_typesupport_c/custom_msgs/action/count_down__type_support.cpp'
+CMakeFiles/custom_msgs__rosidl_typesupport_c.dir/build.make:165: warning: overriding recipe for target 'rosidl_typesupport_c/custom_msgs/action/count_down__type_support.cpp'
+CMakeFiles/custom_msgs__rosidl_typesupport_c.dir/build.make:162: warning: ignoring old recipe for target 'rosidl_typesupport_c/custom_msgs/action/count_down__type_support.cpp'
+CMakeFiles/custom_msgs__rosidl_typesupport_introspection_c.dir/build.make:167: warning: overriding recipe for target 'rosidl_typesupport_introspection_c/custom_msgs/action/detail/count_down__rosidl_typesupport_introspection_c.h'
+CMakeFiles/custom_msgs__rosidl_typesupport_introspection_c.dir/build.make:164: warning: ignoring old recipe for target 'rosidl_typesupport_introspection_c/custom_msgs/action/detail/count_down__rosidl_typesupport_introspection_c.h'
+CMakeFiles/custom_msgs__rosidl_typesupport_introspection_c.dir/build.make:182: warning: overriding recipe for target 'rosidl_typesupport_introspection_c/custom_msgs/action/detail/count_down__type_support.c'
+CMakeFiles/custom_msgs__rosidl_typesupport_introspection_c.dir/build.make:179: warning: ignoring old recipe for target 'rosidl_typesupport_introspection_c/custom_msgs/action/detail/count_down__type_support.c'
+CMakeFiles/custom_msgs__rosidl_typesupport_fastrtps_c.dir/build.make:179: warning: overriding recipe for target 'rosidl_typesupport_fastrtps_c/custom_msgs/action/detail/count_down__rosidl_typesupport_fastrtps_c.h'
+CMakeFiles/custom_msgs__rosidl_typesupport_fastrtps_c.dir/build.make:173: warning: ignoring old recipe for target 'rosidl_typesupport_fastrtps_c/custom_msgs/action/detail/count_down__rosidl_typesupport_fastrtps_c.h'
+CMakeFiles/custom_msgs__rosidl_typesupport_fastrtps_c.dir/build.make:182: warning: overriding recipe for target 'rosidl_typesupport_fastrtps_c/custom_msgs/action/detail/count_down__type_support_c.cpp'
+CMakeFiles/custom_msgs__rosidl_typesupport_fastrtps_c.dir/build.make:176: warning: ignoring old recipe for target 'rosidl_typesupport_fastrtps_c/custom_msgs/action/detail/count_down__type_support_c.cpp'
+/root/ros_ws/src/build/custom_msgs/custom_msgs__py/CMakeFiles/custom_msgs__py.dir/build.make:195: warning: overriding recipe for target 'rosidl_generator_py/custom_msgs/action/_count_down.py'
+/root/ros_ws/src/build/custom_msgs/custom_msgs__py/CMakeFiles/custom_msgs__py.dir/build.make:192: warning: ignoring old recipe for target 'rosidl_generator_py/custom_msgs/action/_count_down.py'
+/root/ros_ws/src/build/custom_msgs/custom_msgs__py/CMakeFiles/custom_msgs__py.dir/build.make:219: warning: overriding recipe for target 'rosidl_generator_py/custom_msgs/action/_count_down_s.c'
+/root/ros_ws/src/build/custom_msgs/custom_msgs__py/CMakeFiles/custom_msgs__py.dir/build.make:216: warning: ignoring old recipe for target 'rosidl_generator_py/custom_msgs/action/_count_down_s.c'
+/root/ros_ws/src/build/custom_msgs/custom_msgs__py/CMakeFiles/custom_msgs__py.dir/build.make:195: warning: overriding recipe for target 'rosidl_generator_py/custom_msgs/action/_count_down.py'
+/root/ros_ws/src/build/custom_msgs/custom_msgs__py/CMakeFiles/custom_msgs__py.dir/build.make:192: warning: ignoring old recipe for target 'rosidl_generator_py/custom_msgs/action/_count_down.py'
+/root/ros_ws/src/build/custom_msgs/custom_msgs__py/CMakeFiles/custom_msgs__py.dir/build.make:219: warning: overriding recipe for target 'rosidl_generator_py/custom_msgs/action/_count_down_s.c'
+/root/ros_ws/src/build/custom_msgs/custom_msgs__py/CMakeFiles/custom_msgs__py.dir/build.make:216: warning: ignoring old recipe for target 'rosidl_generator_py/custom_msgs/action/_count_down_s.c'

@@ -1,0 +1,14 @@
+package.xml
+setup.cfg
+setup.py
+action_demo_pkg/__init__.py
+action_demo_pkg/client.py
+action_demo_pkg/server.py
+action_demo_pkg.egg-info/PKG-INFO
+action_demo_pkg.egg-info/SOURCES.txt
+action_demo_pkg.egg-info/dependency_links.txt
+action_demo_pkg.egg-info/entry_points.txt
+action_demo_pkg.egg-info/requires.txt
+action_demo_pkg.egg-info/top_level.txt
+action_demo_pkg.egg-info/zip-safe
+resource/action_demo_pkg

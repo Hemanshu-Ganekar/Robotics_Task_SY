@@ -1,0 +1,16 @@
+running develop
+running egg_info
+writing action_demo_pkg.egg-info/PKG-INFO
+writing dependency_links to action_demo_pkg.egg-info/dependency_links.txt
+writing entry points to action_demo_pkg.egg-info/entry_points.txt
+writing requirements to action_demo_pkg.egg-info/requires.txt
+writing top-level names to action_demo_pkg.egg-info/top_level.txt
+reading manifest file 'action_demo_pkg.egg-info/SOURCES.txt'
+writing manifest file 'action_demo_pkg.egg-info/SOURCES.txt'
+running build_ext
+Creating /root/ros_ws/install/action_demo_pkg/lib/python3.10/site-packages/action-demo-pkg.egg-link (link to .)
+Installing client script to /root/ros_ws/install/action_demo_pkg/lib/action_demo_pkg
+Installing server script to /root/ros_ws/install/action_demo_pkg/lib/action_demo_pkg
+
+Installed /root/ros_ws/build/action_demo_pkg
+running symlink_data

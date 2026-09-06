@@ -1,0 +1,14 @@
+package.xml
+setup.cfg
+setup.py
+resource/task4
+task4/__init__.py
+task4/client.py
+task4/server.py
+task4.egg-info/PKG-INFO
+task4.egg-info/SOURCES.txt
+task4.egg-info/dependency_links.txt
+task4.egg-info/entry_points.txt
+task4.egg-info/requires.txt
+task4.egg-info/top_level.txt
+task4.egg-info/zip-safe

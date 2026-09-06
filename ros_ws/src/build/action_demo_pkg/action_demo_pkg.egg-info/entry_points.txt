@@ -1,0 +1,4 @@
+[console_scripts]
+client = action_demo_pkg.client:main
+server = action_demo_pkg.server:main
+

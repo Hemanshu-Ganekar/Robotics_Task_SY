@@ -1,0 +1,19 @@
+[0.998s] Invoking command in '/root/ros_ws/build/sensorPkg': PYTHONPATH=/root/ros_ws/build/sensorPkg/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/root/ros_ws/install/sensorPkg/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /root/ros_ws/build/sensorPkg/build --no-deps symlink_data
+[1.188s] running develop
+[1.295s] running egg_info
+[1.295s] writing sensorPkg.egg-info/PKG-INFO
+[1.295s] writing dependency_links to sensorPkg.egg-info/dependency_links.txt
+[1.295s] writing entry points to sensorPkg.egg-info/entry_points.txt
+[1.295s] writing requirements to sensorPkg.egg-info/requires.txt
+[1.295s] writing top-level names to sensorPkg.egg-info/top_level.txt
+[1.297s] reading manifest file 'sensorPkg.egg-info/SOURCES.txt'
+[1.297s] writing manifest file 'sensorPkg.egg-info/SOURCES.txt'
+[1.298s] running build_ext
+[1.298s] Creating /root/ros_ws/install/sensorPkg/lib/python3.10/site-packages/sensorPkg.egg-link (link to .)
+[1.299s] Installing logger script to /root/ros_ws/install/sensorPkg/lib/sensorPkg
+[1.299s] Installing sensor script to /root/ros_ws/install/sensorPkg/lib/sensorPkg
+[1.299s] Installing subscriber script to /root/ros_ws/install/sensorPkg/lib/sensorPkg
+[1.300s] 
+[1.300s] Installed /root/ros_ws/build/sensorPkg
+[1.300s] running symlink_data
+[1.350s] Invoked command in '/root/ros_ws/build/sensorPkg' returned '0': PYTHONPATH=/root/ros_ws/build/sensorPkg/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/root/ros_ws/install/sensorPkg/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /root/ros_ws/build/sensorPkg/build --no-deps symlink_data

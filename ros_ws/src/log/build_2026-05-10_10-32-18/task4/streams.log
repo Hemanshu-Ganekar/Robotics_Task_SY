@@ -1,0 +1,18 @@
+[1.237s] Invoking command in '/root/ros_ws/src/build/task4': PYTHONPATH=/root/ros_ws/src/build/task4/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/root/ros_ws/src/install/task4/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /root/ros_ws/src/build/task4/build --no-deps symlink_data
+[1.448s] running develop
+[1.563s] running egg_info
+[1.563s] writing task4.egg-info/PKG-INFO
+[1.563s] writing dependency_links to task4.egg-info/dependency_links.txt
+[1.564s] writing entry points to task4.egg-info/entry_points.txt
+[1.564s] writing requirements to task4.egg-info/requires.txt
+[1.564s] writing top-level names to task4.egg-info/top_level.txt
+[1.565s] reading manifest file 'task4.egg-info/SOURCES.txt'
+[1.566s] writing manifest file 'task4.egg-info/SOURCES.txt'
+[1.567s] running build_ext
+[1.567s] Creating /root/ros_ws/src/install/task4/lib/python3.10/site-packages/task4.egg-link (link to .)
+[1.568s] Installing client script to /root/ros_ws/src/install/task4/lib/task4
+[1.568s] Installing server script to /root/ros_ws/src/install/task4/lib/task4
+[1.568s] 
+[1.569s] Installed /root/ros_ws/src/build/task4
+[1.569s] running symlink_data
+[1.630s] Invoked command in '/root/ros_ws/src/build/task4' returned '0': PYTHONPATH=/root/ros_ws/src/build/task4/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/root/ros_ws/src/install/task4/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /root/ros_ws/src/build/task4/build --no-deps symlink_data

@@ -1,0 +1,18 @@
+[1.261s] Invoking command in '/root/ros_ws/build/action_demo_pkg': PYTHONPATH=/root/ros_ws/build/action_demo_pkg/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/root/ros_ws/install/action_demo_pkg/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /root/ros_ws/build/action_demo_pkg/build --no-deps symlink_data
+[1.474s] running develop
+[1.588s] running egg_info
+[1.588s] writing action_demo_pkg.egg-info/PKG-INFO
+[1.588s] writing dependency_links to action_demo_pkg.egg-info/dependency_links.txt
+[1.589s] writing entry points to action_demo_pkg.egg-info/entry_points.txt
+[1.589s] writing requirements to action_demo_pkg.egg-info/requires.txt
+[1.589s] writing top-level names to action_demo_pkg.egg-info/top_level.txt
+[1.590s] reading manifest file 'action_demo_pkg.egg-info/SOURCES.txt'
+[1.590s] writing manifest file 'action_demo_pkg.egg-info/SOURCES.txt'
+[1.592s] running build_ext
+[1.592s] Creating /root/ros_ws/install/action_demo_pkg/lib/python3.10/site-packages/action-demo-pkg.egg-link (link to .)
+[1.592s] Installing client script to /root/ros_ws/install/action_demo_pkg/lib/action_demo_pkg
+[1.593s] Installing server script to /root/ros_ws/install/action_demo_pkg/lib/action_demo_pkg
+[1.593s] 
+[1.593s] Installed /root/ros_ws/build/action_demo_pkg
+[1.593s] running symlink_data
+[1.641s] Invoked command in '/root/ros_ws/build/action_demo_pkg' returned '0': PYTHONPATH=/root/ros_ws/build/action_demo_pkg/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/root/ros_ws/install/action_demo_pkg/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /root/ros_ws/build/action_demo_pkg/build --no-deps symlink_data

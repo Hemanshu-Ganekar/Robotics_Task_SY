@@ -1,0 +1,10 @@
+{
+  "package_name": "custom_msgs",
+  "non_idl_tuples": [
+    "/root/ros_ws/src/custom_msgs:msg/ExtendedVector3.msg",
+    "/root/ros_ws/src/custom_msgs:msg/RobotStatus.msg",
+    "/root/ros_ws/src/custom_msgs:srv/AddNumber.srv",
+    "/root/ros_ws/src/custom_msgs:action/CountDown.action",
+    "/root/ros_ws/src/custom_msgs:action/Nav.action"
+  ]
+}

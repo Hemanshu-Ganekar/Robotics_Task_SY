@@ -1,0 +1,5 @@
+/root/ros_ws/build/custom_msgs/rosidl_adapter/custom_msgs:msg/ExtendedVector3.idl
+/root/ros_ws/build/custom_msgs/rosidl_adapter/custom_msgs:msg/RobotStatus.idl
+/root/ros_ws/build/custom_msgs/rosidl_adapter/custom_msgs:srv/AddNumber.idl
+/root/ros_ws/build/custom_msgs/rosidl_adapter/custom_msgs:action/CountDown.idl
+/root/ros_ws/build/custom_msgs/rosidl_adapter/custom_msgs:action/Nav.idl

@@ -1,0 +1,19 @@
+[0.760s] Invoking command in '/root/ros_ws/build/sensorPkg': AMENT_PREFIX_PATH=/root/ros_ws/install/custom_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/root/ros_ws/install/custom_msgs LD_LIBRARY_PATH=/root/ros_ws/install/custom_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/root/ros_ws/build/sensorPkg/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/root/ros_ws/install/sensorPkg/lib/python3.10/site-packages:/root/ros_ws/install/custom_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /root/ros_ws/build/sensorPkg/build --no-deps symlink_data
+[0.932s] running develop
+[1.030s] running egg_info
+[1.030s] writing sensorPkg.egg-info/PKG-INFO
+[1.030s] writing dependency_links to sensorPkg.egg-info/dependency_links.txt
+[1.030s] writing entry points to sensorPkg.egg-info/entry_points.txt
+[1.031s] writing requirements to sensorPkg.egg-info/requires.txt
+[1.031s] writing top-level names to sensorPkg.egg-info/top_level.txt
+[1.032s] reading manifest file 'sensorPkg.egg-info/SOURCES.txt'
+[1.032s] writing manifest file 'sensorPkg.egg-info/SOURCES.txt'
+[1.034s] running build_ext
+[1.034s] Creating /root/ros_ws/install/sensorPkg/lib/python3.10/site-packages/sensorPkg.egg-link (link to .)
+[1.034s] Installing logger script to /root/ros_ws/install/sensorPkg/lib/sensorPkg
+[1.034s] Installing sensor script to /root/ros_ws/install/sensorPkg/lib/sensorPkg
+[1.034s] Installing subscriber script to /root/ros_ws/install/sensorPkg/lib/sensorPkg
+[1.035s] 
+[1.035s] Installed /root/ros_ws/build/sensorPkg
+[1.035s] running symlink_data
+[1.071s] Invoked command in '/root/ros_ws/build/sensorPkg' returned '0': AMENT_PREFIX_PATH=/root/ros_ws/install/custom_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/root/ros_ws/install/custom_msgs LD_LIBRARY_PATH=/root/ros_ws/install/custom_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/root/ros_ws/build/sensorPkg/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/root/ros_ws/install/sensorPkg/lib/python3.10/site-packages:/root/ros_ws/install/custom_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /root/ros_ws/build/sensorPkg/build --no-deps symlink_data

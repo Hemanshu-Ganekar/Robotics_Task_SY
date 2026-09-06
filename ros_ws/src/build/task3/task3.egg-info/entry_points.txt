@@ -1,0 +1,4 @@
+[console_scripts]
+client = task3.client:main
+service = task3.service:main
+
